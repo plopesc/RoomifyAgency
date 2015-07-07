@@ -66,8 +66,6 @@ projects[geofield][subdir] = "contrib"
 
 projects[geofield_gmap][version] = "2.x-dev"
 projects[geofield_gmap][subdir] = "contrib"
-; https://www.drupal.org/node/2474867
-projects[geofield_gmap][patch][] = "https://www.drupal.org/files/issues/geofield_gmap-render_maps_correctly_in_tabs-2474867-1.patch"
 
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
