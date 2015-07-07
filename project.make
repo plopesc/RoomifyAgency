@@ -233,7 +233,6 @@ libraries[nivo-slider][type] = "library"
 libraries[nivo-slider][destination] = "libraries"
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "http://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider2.7.1.zip"
-libraries[nivo-slider][download][subtree] = nivo-slider
 
 ; plupload
 libraries[nivo-slider][directory_name] = "plupload"
@@ -241,7 +240,6 @@ libraries[nivo-slider][type] = "library"
 libraries[nivo-slider][destination] = "libraries"
 libraries[nivo-slider][download][type] = "get"
 libraries[nivo-slider][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
-libraries[nivo-slider][download][subtree] = plupload
 
 ; rooms_fullcalendar
 libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
