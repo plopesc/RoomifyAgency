@@ -25,9 +25,6 @@ projects[ctools][subdir] = "contrib"
 projects[date][version] = "2.8"
 projects[date][subdir] = "contrib"
 
-projects[demo][version] = "1.x-dev"
-projects[demo][subdir] = "contrib"
-
 projects[devel][version] = "1.5"
 projects[devel][subdir] = "contrib"
 

@@ -26,9 +26,3 @@ function agency_system_7003() {
   module_enable(array('environment_indicator'));
 }
 
-/**
- * Enables Demo Reset module.
- */
-function agency_system_7004() {
-  module_enable(array('demo_reset'));
-}

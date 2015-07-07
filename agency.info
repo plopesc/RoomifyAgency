@@ -63,8 +63,6 @@ dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_popup
 ; Development
-dependencies[] = demo
-dependencies[] = demo_reset
 dependencies[] = profiler_builder
 ; Fields
 dependencies[] = addressfield
@@ -111,8 +109,8 @@ dependencies[] = views_php
 dependencies[] = views_ui
 ; Features
 dependencies[] = features
-dependencies[] = agency_demo_homepage
-dependencies[] = agency_demo_location
-dependencies[] = agency_demo_units
-dependencies[] = agency_demo_users
+dependencies[] = agency_homepage
+dependencies[] = agency_location
+dependencies[] = agency_units
+dependencies[] = agency_users
 dependencies[] = agency_system
