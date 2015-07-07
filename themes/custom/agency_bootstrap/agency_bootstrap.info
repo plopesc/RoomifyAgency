@@ -1,0 +1,26 @@
+name = Agency Bootstrap
+description = Agency Demo Bootstrap subtheme
+base theme = bootstrap
+core = 7.x
+
+; ========================================
+; Regions
+; ========================================
+regions[navigation] = Navigation
+regions[header] = Top Bar
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Primary
+regions[sidebar_second] = Secondary
+regions[footer] = Footer
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/agency_bootstrap.normalize.css
+stylesheets[all][] = css/agency_bootstrap.hacks.css
+stylesheets[all][] = css/agency_bootstrap.styles.css
+stylesheets[all][] = css/agency_bootstrap.no-query.css

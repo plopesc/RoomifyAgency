@@ -1,0 +1,4 @@
+/* Hide exposed filters on unit search view. */
+.view-unit-availability-search .view-filters {
+  display: none;
+}

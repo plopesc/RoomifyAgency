@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Code for the Agency Users feature.
+ */
+
+include_once 'agency_users.features.inc';
+
+/**
+ * Implements hook_user_login().
+ *
+ * Redirect property owners to the 'My units' page.
+ */
+function agency_users_user_login(&$edit, $account) {
+
+  if (!isset($_POST['form_id']) || $_POST['form_id'] != 'user_pass_reset') {
+    if (in_array('property_owner', $account->roles)) {
+      drupal_goto('admin/rooms/my-units');
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Agency Features views feature.
+ */
+
+include_once 'agency_features_views.features.inc';

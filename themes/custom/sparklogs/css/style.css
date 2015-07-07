@@ -1,0 +1,13 @@
+/* Dirty rotten hacks. */
+.rooms-date-range .form-type-textfield label {
+	display:none !important;
+}
+
+.rooms-availability-field-calendar .availability-title {
+  display: none;
+}
+
+.navbar .logo {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

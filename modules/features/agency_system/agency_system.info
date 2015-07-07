@@ -1,0 +1,11 @@
+name = agency_system
+description = Core tweaks for Agency site
+core = 7.x
+package = Agency
+dependencies[] = ctools
+dependencies[] = environment_indicator
+features[ctools][] = environment_indicator:default_environment_indicator_environments:1
+features[environment_indicator_environment][] = development
+features[environment_indicator_environment][] = local
+features[features_api][] = api:2
+files[] = includes/agency_system.availability_agent_unit_filter.inc

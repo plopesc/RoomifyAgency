@@ -1,0 +1,13 @@
+/* No files to import found in abstractions/**\/* */
+img, media {
+  max-width: 100%; }
+
+/* Styles for the homepage search form */
+.pane-homepage-search-form .form-type-date-popup .help-block {
+  display: none; }
+.pane-homepage-search-form .container-inline-date .date-padding .control-label {
+  display: none; }
+.pane-homepage-search-form .form-item-group-size .control-label {
+  display: none; }
+
+/*# sourceMappingURL=agency_bootstrap.styles.css.map */

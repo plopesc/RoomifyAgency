@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Install and update hooks for Agency System feature.
+ */
+
+/**
+ * Enables jquery_update module.
+ */
+function agency_system_7001() {
+  module_enable(array('jquery_update'));
+}
+
+/**
+ * Enables menu module.
+ */
+function agency_system_7002() {
+  module_enable(array('menu'));
+}
+
+/**
+ * Enables environment_indicator module.
+ */
+function agency_system_7003() {
+  module_enable(array('environment_indicator'));
+}
+
+/**
+ * Enables Demo Reset module.
+ */
+function agency_system_7004() {
+  module_enable(array('demo_reset'));
+}

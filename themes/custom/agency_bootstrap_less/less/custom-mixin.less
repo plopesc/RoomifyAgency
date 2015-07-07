@@ -1,0 +1,103 @@
+// -----------------------------------
+// BUTTON
+// -----------------------------------
+
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 25px;
+}
+.btn-circle.btn-xl {
+	width: 70px;
+	height: 70px;
+	padding: 10px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 35px;
+}
+
+.line-text (@color:#fff; @font-size:30px; @display:flex){
+	display: @display;
+	white-space: nowrap;
+	text-align: center;
+	color:@color;
+	font-size: @font-size;
+	&:before, &:after {
+		border-top: 1px solid @color;
+		content: '';
+		display: table-cell;
+		position: relative;
+		top: 0.5em;
+		width: 45%;
+		color:@color;
+	}
+	&:before { right: 1.5%; }
+	&:after { left: 1.5%; }
+}
+
+.flag-favorite() {
+  &.flag-wrapper {
+    display: block;
+    overflow: hidden;
+  }
+  a {
+    display: block;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    font-family: @font-family-base;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    .transition(.2s border-color .2s ease-in-out, .2s background-color .2s ease-in-out;);
+    &::before {
+      .glyphicon;
+      top: auto;
+      content: "\e005";
+      color: white;
+      background-color: transparent;
+      display: inline-block;
+      font-size: 25px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &.unflag-action,
+    &:hover {
+      text-decoration: none;
+      background-color: @red;
+      border: 1px solid @red;
+    }
+  }
+  .flag-message {
+  	top: 5em;
+  }
+}
+
+.flag-favorite-size(@s: 52px; @fs: 25px) {
+  &.flag-wrapper {
+    height: @s;
+  }
+  a {
+    height: @s;
+    width: @s;
+    &::before {
+    	font-size: @fs;
+      line-height: @s;
+    }
+  }
+}

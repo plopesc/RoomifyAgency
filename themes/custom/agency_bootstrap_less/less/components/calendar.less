@@ -1,0 +1,77 @@
+@import (reference)'../variables.less';
+@import (reference)'../../bootstrap/less/glyphicons.less';
+@import (reference)'../../bootstrap/less/mixins/vendor-prefixes.less';
+@import (reference)'../../less/custom-mixin.less';
+
+.fc-toolbar {
+  button {
+    height: auto;
+    padding: .5em .8em;
+    background: @gray-lighter;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+    .fc-icon {
+      margin: 0;
+      color: @gray;
+    }
+  }
+  .fc-center {
+    h2 {
+      float: none;
+      color: #9b9b9b;
+      font-size: 1.2em;
+      font-weight: 400;
+      line-height: 2em;
+    }
+  }
+  .fc-today-button {
+    background-color: @brand-info;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    &.fc-state-disabled {
+      background-color: @gray-lighter;
+      color: darken(@gray-lighter, 20%);
+    }
+  }
+}
+
+.fc-event {
+  line-height: 1.4;
+}
+
+.fc-scroller {
+  overflow: visible;
+  height: auto !important;
+}
+
+.fc-basic-view {
+  tbody {
+    .fc-row {
+      border-bottom: 1px dotted #e2e2e2;
+    }
+  }
+}
+
+div.fc-widget-header {
+  border-bottom-width: 1px !important;
+  border-color: #e2e2e2 !important;
+  tr {
+    th {
+      padding: 4px;
+      background-color: #f2f2f2;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.fc-ltr {
+  .fc-basic-view {
+    .fc-day-number {
+      text-align: center;
+    }
+  }
+}
