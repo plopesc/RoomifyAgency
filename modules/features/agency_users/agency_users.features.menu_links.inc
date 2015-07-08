@@ -30,10 +30,10 @@ function agency_users_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Sign up');
-
 
   return $menu_links;
 }

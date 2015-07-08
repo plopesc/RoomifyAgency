@@ -515,7 +515,7 @@ function agency_units_field_default_field_instances() {
   // Exported field_instance: 'rooms_unit-bnb-rooms_booking_unit_options'
   $field_instances['rooms_unit-bnb-rooms_booking_unit_options'] = array(
     'bundle' => 'bnb',
-    'default_value' => NULL,
+    'default_value' => array(),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -542,10 +542,11 @@ function agency_units_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'rooms_unit_type-rooms_unit_type-rooms_booking_unit_options'
+  // Exported field_instance:
+  // 'rooms_unit_type-rooms_unit_type-rooms_booking_unit_options'
   $field_instances['rooms_unit_type-rooms_unit_type-rooms_booking_unit_options'] = array(
     'bundle' => 'rooms_unit_type',
-    'default_value' => NULL,
+    'default_value' => array(),
     'deleted' => 0,
     'description' => '',
     'display' => array(
