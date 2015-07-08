@@ -230,14 +230,14 @@ libraries[nivo-slider][directory_name] = "nivo-slider"
 libraries[nivo-slider][type] = "library"
 libraries[nivo-slider][destination] = "libraries"
 libraries[nivo-slider][download][type] = "get"
-libraries[nivo-slider][download][url] = "http://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider2.7.1.zip"
+libraries[nivo-slider][download][url] = "https://github.com/gilbitron/Nivo-Slider/archive/3.2.zip"
 
 ; plupload
-libraries[nivo-slider][directory_name] = "plupload"
-libraries[nivo-slider][type] = "library"
-libraries[nivo-slider][destination] = "libraries"
-libraries[nivo-slider][download][type] = "get"
-libraries[nivo-slider][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][directory_name] = "plupload"
+libraries[plupload][type] = "library"
+libraries[plupload][destination] = "libraries"
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
 
 ; rooms_fullcalendar
 libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
