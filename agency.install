@@ -6,8 +6,8 @@
  */
 function agency_install() {
   // Enable some agency blocks.
-  $default_theme = 'sparklogs';
-  $admin_theme = 'seven';
+  $default_theme = 'agency_bootstrap_less';
+  $admin_theme = 'shiny';
 
   // Disable all themes.
   db_update('system')
