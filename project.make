@@ -4,10 +4,10 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[addressfield][version] = "1.0"
+projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
-projects[bean][version] = "1.8"
+projects[bean][version] = "1.9"
 projects[bean][subdir] = "contrib"
 
 projects[chosen][version] = "2.0-beta4"
@@ -19,7 +19,7 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[date][version] = "2.8"
@@ -31,16 +31,16 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
-projects[environment_indicator][version] = "2.5"
+projects[environment_indicator][version] = "2.7"
 projects[environment_indicator][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "2.3"
+projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
@@ -73,7 +73,7 @@ projects[geophp][subdir] = "contrib"
 projects[getdirections][version] = "3.2"
 projects[getdirections][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "2.6"
 projects[jquery_update][subdir] = "contrib"
 
 projects[leaflet][version] = "1.1"
@@ -81,13 +81,13 @@ projects[leaflet][subdir] = "patched"
 ; https://www.drupal.org/node/2466365
 projects[leaflet][patch][] = "https://www.drupal.org/files/issues/leaflet-entity_type_not_detected-2466365-1.patch"
 
-projects[leaflet_more_maps][version] = "1.10"
+projects[leaflet_more_maps][version] = "1.12"
 projects[leaflet_more_maps][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[logintoboggan][version] = "1.4"
+projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"
 
 projects[manualcrop][version] = "1.4"
@@ -136,10 +136,10 @@ projects[rooms_views][download][branch] = "group_size_filter"
 projects[rooms_views][directory_name] = "rooms_views"
 projects[rooms_views][subdir] = "contrib"
 
-projects[rules][version] = "2.7"
+projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[search_api][version] = "1.14"
+projects[search_api][version] = "1.15"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.4"
@@ -148,13 +148,13 @@ projects[search_api_db][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.11"
 projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
