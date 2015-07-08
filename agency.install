@@ -125,6 +125,7 @@ function agency_install() {
     'agency_image_styles',
     'agency_property_map',
     'agency_theme',
+    'agency_property_page_view',
   );
   features_revert($features);
 
