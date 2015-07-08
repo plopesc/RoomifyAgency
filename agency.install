@@ -120,7 +120,11 @@ function agency_install() {
     'agency_location',
     'agency_units',
     'agency_users',
-    'agency_system'
+    'agency_system',
+    'agency_features_views',
+    'agency_image_styles',
+    'agency_property_map',
+    'agency_theme',
   );
   features_revert($features);
 
