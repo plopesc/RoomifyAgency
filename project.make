@@ -112,7 +112,9 @@ projects[panels_tabs][version] = "2.x-dev"
 projects[panels_tabs][subdir] = "contrib"
 
 projects[plupload][version] = "1.7"
-projects[plupload][subdir] = "contrib"
+projects[plupload][subdir] = "patched"
+; https://www.drupal.org/node/2106583
+projects[plupload][patch][] = "https://www.drupal.org/files/plupload-cannot-upload-with-not-php-stream-2106583-5.patch"
 
 projects[pm_existing_pages][version] = "1.4"
 projects[pm_existing_pages][subdir] = "contrib"
