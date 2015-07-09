@@ -1,0 +1,12 @@
+name = Agency Mailchimp
+description = Mailchimp integration for agency
+core = 7.x
+package = Agency
+dependencies[] = features
+dependencies[] = mailchimp
+dependencies[] = mailchimp_lists
+dependencies[] = mailchimp_signup
+features[features_api][] = api:2
+features[user_permission][] = access mailchimp signup pages
+features[user_permission][] = administer mailchimp
+features[user_permission][] = administer mailchimp signup entities

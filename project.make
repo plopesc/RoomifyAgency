@@ -97,6 +97,9 @@ projects[libraries][subdir] = "contrib"
 projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"
 
+projects[mailchimp][version] = "3.4"
+projects[mailchimp][subdir] = "contrib"
+
 projects[manualcrop][version] = "1.4"
 projects[manualcrop][subdir] = "contrib"
 
@@ -226,6 +229,13 @@ libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+
+; mailchimp
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][type] = "library"
+libraries[mailchimp][destination] = "libraries"
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 
 ; modernizr
 libraries[modernizr][directory_name] = "modernizr"
