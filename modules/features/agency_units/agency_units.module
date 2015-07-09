@@ -80,12 +80,30 @@ function agency_units_form_rooms_unit_edit_form_alter(&$form, $form_state) {
     $form['field_owner'][LANGUAGE_NONE][0]['target_id']['#default_value'] = $author->name . ' (' . $author->uid . ')';
   }
 
+  // Using this permission as a proxy for admin or agency manager roles.
+  // @todo: agency-specific permission needed?
+  if (!user_access('update any rooms_unit entity')) {
+
+    // Don't let property owners feature/unfeature their own units.
+    $form['field_property_featured']['#access'] = FALSE;
+
+    // Don't let property owners update the bookable status if this unit has
+    // not been published.
+    if (!$form['#entity']->status) {
+      $form['availability']['bookable']['#access'] = FALSE;
+    }
+  }
+
   // Unit creation modifications.
   if (!empty($form['#entity']->is_new)) {
 
     // Using this permission as a proxy for admin or agency manager roles.
     // @todo: agency-specific permission needed?
     if (!user_access('update any rooms_unit entity')) {
+
+      // Don't let property owners make their new units bookable.
+      $form['availability']['bookable']['#default_value'] = FALSE;
+      $form['availability']['bookable']['#access'] = FALSE;
 
       // Don't let property owners publish their own units.
       $form['options']['status']['#default_value'] = FALSE;
