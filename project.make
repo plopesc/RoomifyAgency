@@ -7,11 +7,18 @@ api = "2"
 projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
+projects[asset][version] = "1.x-dev"
+projects[asset][subdir] = "patched"
+projects[asset][patch][] = "https://www.drupal.org/files/issues/ckeditor-4.3.1-asset-plugin-2419057-3.patch"
+
 projects[bean][version] = "1.9"
 projects[bean][subdir] = "contrib"
 
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
+
+projects[ckeditor][version] = "1.16"
+projects[ckeditor][subdir] = "contrib"
 
 projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "contrib"
@@ -205,6 +212,13 @@ libraries[chosen][type] = "library"
 libraries[chosen][destination] = "libraries"
 libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.4.2/chosen_v1.4.2.zip"
+
+; ckeditor with plugins for asset module
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
+libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.1/flat/0.9/ckeditor_4.5.1_991f0249c798.zip"
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
