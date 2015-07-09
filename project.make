@@ -178,6 +178,9 @@ projects[views_php][subdir] = "contrib"
 projects[views_nivo_slider][version] = "3.0-alpha1"
 projects[views_nivo_slider][subdir] = "contrib"
 
+projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][subdir] = "contrib"
+
 ; +++++ Themes +++++
 
 ; bootstrap
