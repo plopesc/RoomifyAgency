@@ -105,6 +105,16 @@ function agency_users_user_default_permissions() {
     'module' => 'googleanalytics',
   );
 
+  // Exported permission: 'administer meta tags'.
+  $permissions['administer meta tags'] = array(
+    'name' => 'administer meta tags',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'metatag',
+  );
+
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
@@ -384,6 +394,16 @@ function agency_users_user_default_permissions() {
       'agency_owner' => 'agency_owner',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit meta tags'.
+  $permissions['edit meta tags'] = array(
+    'name' => 'edit meta tags',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'metatag',
   );
 
   // Exported permission: 'edit own location content'.

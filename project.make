@@ -106,6 +106,9 @@ projects[mailchimp][subdir] = "contrib"
 projects[manualcrop][version] = "1.4"
 projects[manualcrop][subdir] = "contrib"
 
+projects[metatag][version] = "1.6"
+projects[metatag][subdir] = "contrib"
+
 projects[navbar][version] = "1.5"
 projects[navbar][subdir] = "contrib"
 
