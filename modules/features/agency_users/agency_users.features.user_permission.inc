@@ -95,6 +95,16 @@ function agency_users_user_default_permissions() {
     'module' => 'flag',
   );
 
+  // Exported permission: 'administer google analytics'.
+  $permissions['administer google analytics'] = array(
+    'name' => 'administer google analytics',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'googleanalytics',
+  );
+
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
@@ -403,6 +413,13 @@ function agency_users_user_default_permissions() {
     'module' => 'flag',
   );
 
+  // Exported permission: 'opt-in or out of tracking'.
+  $permissions['opt-in or out of tracking'] = array(
+    'name' => 'opt-in or out of tracking',
+    'roles' => array(),
+    'module' => 'googleanalytics',
+  );
+
   // Exported permission: 'revert revisions'.
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
@@ -582,6 +599,13 @@ function agency_users_user_default_permissions() {
       'property_owner' => 'property_owner',
     ),
     'module' => 'rooms_pricing',
+  );
+
+  // Exported permission: 'use PHP for tracking visibility'.
+  $permissions['use PHP for tracking visibility'] = array(
+    'name' => 'use PHP for tracking visibility',
+    'roles' => array(),
+    'module' => 'googleanalytics',
   );
 
   // Exported permission: 'use flag import'.

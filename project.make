@@ -80,6 +80,9 @@ projects[geophp][subdir] = "contrib"
 projects[getdirections][version] = "3.2"
 projects[getdirections][subdir] = "contrib"
 
+projects[google_analytics][version] = "2.1"
+projects[google_analytics][subdir] = "contrib"
+
 projects[jquery_update][version] = "2.6"
 projects[jquery_update][subdir] = "contrib"
 
