@@ -32,6 +32,24 @@ function agency_users_user_default_permissions() {
     'module' => 'commerce_checkout',
   );
 
+  // Exported permission: 'access content'.
+  $permissions['access content'] = array(
+    'name' => 'access content',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'access content overview'.
+  $permissions['access content overview'] = array(
+    'name' => 'access content overview',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'access gmap getdirections'.
   $permissions['access gmap getdirections'] = array(
     'name' => 'access gmap getdirections',
@@ -61,6 +79,20 @@ function agency_users_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'getdirections',
+  );
+
+  // Exported permission: 'administer content types'.
+  $permissions['administer content types'] = array(
+    'name' => 'administer content types',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'administer nodes'.
+  $permissions['administer nodes'] = array(
+    'name' => 'administer nodes',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'administer rooms_booking entities'.
@@ -318,6 +350,15 @@ function agency_users_user_default_permissions() {
     'module' => 'rooms_unit',
   );
 
+  // Exported permission: 'delete revisions'.
+  $permissions['delete revisions'] = array(
+    'name' => 'delete revisions',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any location content'.
   $permissions['edit any location content'] = array(
     'name' => 'edit any location content',
@@ -335,6 +376,15 @@ function agency_users_user_default_permissions() {
       'administrator' => 'administrator',
       'agency_owner' => 'agency_owner',
       'property_owner' => 'property_owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'revert revisions'.
+  $permissions['revert revisions'] = array(
+    'name' => 'revert revisions',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
     ),
     'module' => 'node',
   );
@@ -630,10 +680,17 @@ function agency_users_user_default_permissions() {
   // Exported permission: 'view past availability information'.
   $permissions['view past availability information'] = array(
     'name' => 'view past availability information',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'rooms_availability',
+  );
+
+  // Exported permission: 'view revisions'.
+  $permissions['view revisions'] = array(
+    'name' => 'view revisions',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'node',
   );
 
   // Exported permission: 'view the administration theme'.
