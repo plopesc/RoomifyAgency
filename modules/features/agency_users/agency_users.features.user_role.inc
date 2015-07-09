@@ -10,6 +10,12 @@
 function agency_users_user_default_roles() {
   $roles = array();
 
+  // Exported role: administrator.
+  $roles['administrator'] = array(
+    'name' => 'administrator',
+    'weight' => 5,
+  );
+
   // Exported role: agency_owner.
   $roles['agency_owner'] = array(
     'name' => 'agency_owner',

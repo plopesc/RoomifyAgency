@@ -88,6 +88,13 @@ function agency_users_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'administer flags'.
+  $permissions['administer flags'] = array(
+    'name' => 'administer flags',
+    'roles' => array(),
+    'module' => 'flag',
+  );
+
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
@@ -380,6 +387,22 @@ function agency_users_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'flag favorite'.
+  $permissions['flag favorite'] = array(
+    'name' => 'flag favorite',
+    'roles' => array(),
+    'module' => 'flag',
+  );
+
+  // Exported permission: 'flag featured'.
+  $permissions['flag featured'] = array(
+    'name' => 'flag featured',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'flag',
+  );
+
   // Exported permission: 'revert revisions'.
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
@@ -387,6 +410,22 @@ function agency_users_user_default_permissions() {
       'agency_owner' => 'agency_owner',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'unflag favorite'.
+  $permissions['unflag favorite'] = array(
+    'name' => 'unflag favorite',
+    'roles' => array(),
+    'module' => 'flag',
+  );
+
+  // Exported permission: 'unflag featured'.
+  $permissions['unflag featured'] = array(
+    'name' => 'unflag featured',
+    'roles' => array(
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'flag',
   );
 
   // Exported permission: 'update any rooms_booking entity'.
@@ -543,6 +582,13 @@ function agency_users_user_default_permissions() {
       'property_owner' => 'property_owner',
     ),
     'module' => 'rooms_pricing',
+  );
+
+  // Exported permission: 'use flag import'.
+  $permissions['use flag import'] = array(
+    'name' => 'use flag import',
+    'roles' => array(),
+    'module' => 'flag',
   );
 
   // Exported permission: 'view anonymous availability information'.
