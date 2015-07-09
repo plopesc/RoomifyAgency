@@ -127,6 +127,7 @@ function agency_install() {
     'agency_theme',
     'agency_property_page_view',
     'agency_editor',
+    'agency_blog',
   );
   features_revert($features);
 

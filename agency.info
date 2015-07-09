@@ -120,3 +120,4 @@ dependencies[] = agency_property_map
 dependencies[] = agency_property_page_view
 dependencies[] = agency_theme
 dependencies[] = agency_editor
+dependencies[] = agency_blog
