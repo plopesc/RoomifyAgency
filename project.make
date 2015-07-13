@@ -273,6 +273,7 @@ libraries[plupload][type] = "library"
 libraries[plupload][destination] = "libraries"
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
+libraries[plupload][patch][] = "https://www.drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
 ; rooms_fullcalendar
 libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
