@@ -34,20 +34,6 @@ function agency_system_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'xmlsitemap_generated_last';
-  $strongarm->value = 1436474845;
-  $export['xmlsitemap_generated_last'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'xmlsitemap_regenerate_needed';
-  $strongarm->value = TRUE;
-  $export['xmlsitemap_regenerate_needed'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_settings_node_blog';
   $strongarm->value = array(
     'status' => '1',
