@@ -41,7 +41,10 @@ function agency_editor_user_default_permissions() {
   // Exported permission: 'administer assets'.
   $permissions['administer assets'] = array(
     'name' => 'administer assets',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
     'module' => 'asset',
   );
 
@@ -55,7 +58,10 @@ function agency_editor_user_default_permissions() {
   // Exported permission: 'create asset with type image'.
   $permissions['create asset with type image'] = array(
     'name' => 'create asset with type image',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
     'module' => 'asset',
   );
 
@@ -69,15 +75,32 @@ function agency_editor_user_default_permissions() {
   // Exported permission: 'delete asset with type image'.
   $permissions['delete asset with type image'] = array(
     'name' => 'delete asset with type image',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
     'module' => 'asset',
   );
 
   // Exported permission: 'edit asset with type image'.
   $permissions['edit asset with type image'] = array(
     'name' => 'edit asset with type image',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
     'module' => 'asset',
+  );
+
+  // Exported permission: 'use text format rich_text'.
+  $permissions['use text format rich_text'] = array(
+    'name' => 'use text format rich_text',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+      'property_owner' => 'property_owner',
+    ),
+    'module' => 'filter',
   );
 
   return $permissions;
