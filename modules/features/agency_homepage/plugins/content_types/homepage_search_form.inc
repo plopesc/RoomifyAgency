@@ -33,7 +33,6 @@ function agency_homepage_search_render($subtype, $conf, $args, $pane_context, $i
   $block->content = array(
     'content' => drupal_get_form('agency_homepage_search'),
   );
-
   return $block;
 }
 

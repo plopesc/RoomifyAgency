@@ -14,6 +14,9 @@ function agency_homepage_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "page_manager" && $api == "pages_default") {
     return array("version" => "1");
   }
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
 }
 
 /**
@@ -43,7 +46,9 @@ function agency_homepage_flag_default_flags() {
     'unflag_denied_text' => '',
     'link_type' => 'toggle',
     'weight' => 0,
-    'show_in_links' => array(),
+    'show_in_links' => array(
+      'token' => 0,
+    ),
     'show_as_field' => 0,
     'show_on_form' => 1,
     'access_author' => '',
@@ -286,12 +291,6 @@ function agency_homepage_default_search_api_server() {
             "type" : "integer",
             "boost" : "1.0"
           },
-          "field_property_type" : {
-            "table" : "search_api_db_units",
-            "column" : "field_property_type",
-            "type" : "integer",
-            "boost" : "1.0"
-          },
           "search_api_language" : {
             "table" : "search_api_db_units",
             "column" : "search_api_language",
@@ -308,6 +307,12 @@ function agency_homepage_default_search_api_server() {
           "field_property_image:file" : {
             "table" : "search_api_db_units",
             "column" : "field_property_image_file",
+            "type" : "integer",
+            "boost" : "1.0"
+          },
+          "field_property_type" : {
+            "table" : "search_api_db_units",
+            "column" : "field_property_type",
             "type" : "integer",
             "boost" : "1.0"
           }
