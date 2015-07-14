@@ -81,6 +81,7 @@ dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
 dependencies[] = libraries
 dependencies[] = navbar
+dependencies[] = pet
 dependencies[] = strongarm
 dependencies[] = token
 ; Panels
@@ -98,6 +99,7 @@ dependencies[] = rooms_ui
 dependencies[] = rooms_unit
 dependencies[] = rooms_views
 dependencies[] = rooms_channel_manager
+dependencies[] = rooms_notification
 ; Rules
 dependencies[] = rules
 ; User interface

@@ -32,3 +32,17 @@ function agency_system_7003() {
 function agency_system_7004() {
   module_enable(array('rooms_channel_manager'));
 }
+
+/**
+ * Enables Rooms Notification module.
+ */
+function agency_system_7005() {
+  module_enable(array('rooms_notification'));
+}
+
+/**
+ * Enables PET module.
+ */
+function agency_system_7006() {
+  module_enable(array('pet'));
+}
