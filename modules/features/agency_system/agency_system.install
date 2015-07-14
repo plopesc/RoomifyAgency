@@ -46,3 +46,10 @@ function agency_system_7005() {
 function agency_system_7006() {
   module_enable(array('pet'));
 }
+
+/**
+ * Enables Rooms airbnb module.
+ */
+function agency_system_7007() {
+  module_enable(array('rooms_airbnb'));
+}

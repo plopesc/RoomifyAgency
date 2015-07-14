@@ -22,6 +22,7 @@ dependencies[] = panels_bootstrap_layouts
 dependencies[] = plupload
 dependencies[] = pm_existing_pages
 dependencies[] = rooms
+dependencies[] = rooms_airbnb
 dependencies[] = rooms_availability_reference
 dependencies[] = rooms_unit
 dependencies[] = strongarm
