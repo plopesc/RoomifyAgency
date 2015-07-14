@@ -26,6 +26,9 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
 
+projects[composer_manager][version] = "1.7"
+projects[composer_manager][subdir] = "contrib"
+
 projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
@@ -147,6 +150,13 @@ projects[rooms_availability_reference_modal][download][url] = "https://github.co
 projects[rooms_availability_reference_modal][directory_name] = "rooms_availability_reference_modal"
 projects[rooms_availability_reference_modal][subdir] = "contrib"
 
+projects[rooms_channel_manager][type] = module
+projects[rooms_channel_manager][download][type] = "git"
+projects[rooms_channel_manager][download][url] = "https://github.com/Roomify/rooms-channel-manager.git"
+projects[rooms_channel_manager][download][branch] = "master"
+projects[rooms_channel_manager][directory_name] = "rooms_channel_manager"
+projects[rooms_channel_manager][subdir] = "contrib"
+
 projects[rooms_views][type] = module
 projects[rooms_views][download][type] = "git"
 projects[rooms_views][download][url] = "https://github.com/Roomify/rooms_views.git"
@@ -169,6 +179,9 @@ projects[strongarm][subdir] = "contrib"
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
+projects[uuid][version] = "1.0-alpha6"
+projects[uuid][subdir] = "contrib"
+
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
@@ -183,6 +196,9 @@ projects[views_php][subdir] = "contrib"
 
 projects[views_nivo_slider][version] = "3.0-alpha1"
 projects[views_nivo_slider][subdir] = "contrib"
+
+projects[xautoload][version] = "5.2"
+projects[xautoload][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.2"
 projects[xmlsitemap][subdir] = "contrib"

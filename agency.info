@@ -97,6 +97,7 @@ dependencies[] = rooms_pricing
 dependencies[] = rooms_ui
 dependencies[] = rooms_unit
 dependencies[] = rooms_views
+dependencies[] = rooms_channel_manager
 ; Rules
 dependencies[] = rules
 ; User interface

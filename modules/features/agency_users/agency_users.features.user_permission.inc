@@ -81,6 +81,25 @@ function agency_users_user_default_permissions() {
     'module' => 'getdirections',
   );
 
+  // Exported permission: 'administer own rooms_unit channel management'.
+  $permissions['administer own rooms_unit channel management'] = array(
+    'name' => 'administer own rooms_unit channel management',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'property_owner' => 'property_owner',
+    ),
+    'module' => 'rooms_channel_manager',
+  );
+
+  // Exported permission: 'administer rooms channel management'.
+  $permissions['administer rooms channel management'] = array(
+    'name' => 'administer rooms channel management',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'rooms_channel_manager',
+  );
+
   // Exported permission: 'administer content types'.
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
