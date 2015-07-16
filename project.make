@@ -41,6 +41,9 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[email][version] = "1.3"
+projects[email][subdir] = "contrib"
+
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
@@ -58,6 +61,9 @@ projects[field_group][subdir] = "contrib"
 
 projects[flag][version] = "3.6"
 projects[flag][subdir] = "contrib"
+
+projects[fivestar][version] = "2.1"
+projects[fivestar][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.9"
 projects[filefield_sources][subdir] = "contrib"
@@ -205,6 +211,9 @@ projects[views_php][subdir] = "contrib"
 
 projects[views_nivo_slider][version] = "3.0-alpha1"
 projects[views_nivo_slider][subdir] = "contrib"
+
+projects[votingapi][version] = "2.12"
+projects[votingapi][subdir] = "contrib"
 
 projects[xautoload][version] = "5.2"
 projects[xautoload][subdir] = "contrib"

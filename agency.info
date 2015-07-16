@@ -71,6 +71,7 @@ dependencies[] = geofield
 ; Location
 dependencies[] = getdirections
 ; Other
+dependencies[] = ckeditor
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token

@@ -53,3 +53,31 @@ function agency_system_7006() {
 function agency_system_7007() {
   module_enable(array('rooms_airbnb'));
 }
+
+/**
+ * Enables Email Field module.
+ */
+function agency_system_7008() {
+  module_enable(array('email'));
+}
+
+/**
+ * Enables Fivestar module.
+ */
+function agency_system_7009() {
+  module_enable(array('fivestar'));
+}
+
+/**
+ * Enables CKEditor module.
+ */
+function agency_system_7010() {
+  module_enable(array('ckeditor'));
+}
+
+/**
+ * Enables Agency Review feature.
+ */
+function agency_system_7011() {
+  module_enable(array('agency_review'));
+}
