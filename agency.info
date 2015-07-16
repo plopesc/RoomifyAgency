@@ -68,6 +68,7 @@ dependencies[] = profiler_builder
 dependencies[] = addressfield
 dependencies[] = entityreference
 dependencies[] = geofield
+dependencies[] = entityreference_prepopulate
 ; Location
 dependencies[] = getdirections
 ; Other
@@ -125,3 +126,4 @@ dependencies[] = agency_property_page_view
 dependencies[] = agency_theme
 dependencies[] = agency_editor
 dependencies[] = agency_blog
+dependencies[] = agency_review

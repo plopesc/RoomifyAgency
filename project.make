@@ -47,6 +47,9 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
+projects[entityreference_prepopulate][version] = "1.5"
+projects[entityreference_prepopulate][subdir] = "contrib"
+
 projects[environment_indicator][version] = "2.7"
 projects[environment_indicator][subdir] = "contrib"
 
@@ -138,6 +141,7 @@ projects[panels_tabs][subdir] = "contrib"
 
 projects[pet][type] = module
 projects[pet][version] = 1.0-rc1
+projects[pet][subdir] = "contrib"
 projects[pet][patch][] = "https://www.drupal.org/files/pet-add-rules-state-2092195-1.patch"
 
 projects[plupload][version] = "1.7"
@@ -170,7 +174,7 @@ projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"
 projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
 projects[rooms_notification][directory_name] = "rooms_notification"
-projects[rooms_channel_manager][subdir] = "contrib"
+projects[rooms_notification][subdir] = "contrib"
 
 projects[rooms_views][type] = module
 projects[rooms_views][download][type] = "git"
