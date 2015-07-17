@@ -186,6 +186,9 @@ projects[rooms_views][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
+projects[rules_conditional][version] = "1.0-beta2"
+projects[rules_conditional][subdir] = "contrib"
+
 projects[search_api][version] = "1.15"
 projects[search_api][subdir] = "contrib"
 

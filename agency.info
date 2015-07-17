@@ -104,6 +104,7 @@ dependencies[] = rooms_channel_manager
 dependencies[] = rooms_notification
 ; Rules
 dependencies[] = rules
+dependencies[] = rules_conditional
 ; User interface
 dependencies[] = jquery_update
 ; Variable
@@ -127,3 +128,4 @@ dependencies[] = agency_theme
 dependencies[] = agency_editor
 dependencies[] = agency_blog
 dependencies[] = agency_review
+dependencies[] = pet_to_users_role
