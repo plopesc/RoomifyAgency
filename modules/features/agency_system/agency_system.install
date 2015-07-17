@@ -81,3 +81,10 @@ function agency_system_7010() {
 function agency_system_7011() {
   module_enable(array('agency_review'));
 }
+
+/**
+ * Enables Entityform module.
+ */
+function agency_system_7012() {
+  module_enable(array('entityform'));
+}

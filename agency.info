@@ -76,6 +76,7 @@ dependencies[] = ckeditor
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
+dependencies[] = entityform
 dependencies[] = environment_indicator
 dependencies[] = geophp
 dependencies[] = leaflet

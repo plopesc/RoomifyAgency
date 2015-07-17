@@ -47,6 +47,9 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
+projects[entityform][version] = "2.0-rc1"
+projects[entityform][subdir] = "contrib"
+
 projects[entityreference_prepopulate][version] = "1.5"
 projects[entityreference_prepopulate][subdir] = "contrib"
 
