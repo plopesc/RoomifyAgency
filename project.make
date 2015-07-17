@@ -47,6 +47,12 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
+projects[entity_rules][version] = "1.0-alpha4"
+projects[entity_rules][subdir] = "contrib"
+
+projects[entity2text][version] = "1.0-alpha2"
+projects[entity2text][subdir] = "contrib"
+
 projects[entityform][version] = "2.0-rc1"
 projects[entityform][subdir] = "contrib"
 
@@ -111,6 +117,9 @@ projects[leaflet_more_maps][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
+
+projects[link][version] = "1.3"
+projects[link][subdir] = "contrib"
 
 projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"

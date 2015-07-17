@@ -1,4 +1,4 @@
-name = agency_system
+name = Agency System
 description = Core tweaks for Agency site
 core = 7.x
 package = Agency

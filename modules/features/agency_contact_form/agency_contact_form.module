@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Agency Contact form feature.
+ */
+
+include_once 'agency_contact_form.features.inc';

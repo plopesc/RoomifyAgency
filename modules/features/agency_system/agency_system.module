@@ -17,8 +17,10 @@ include_once 'agency_system.features.inc';
  * Allow altering the base commerce admin menu items.
  */
 function agency_system_menu_link_alter(&$item) {
-  if ($item['path'] == 'admin/commerce' || $item['path'] == 'admin/commerce/config') {
-    $item['options']['alter'] = TRUE;
+  if (isset($item['path'])) {
+    if ($item['path'] == 'admin/commerce' || $item['path'] == 'admin/commerce/config') {
+      $item['options']['alter'] = TRUE;
+    }
   }
 }
 

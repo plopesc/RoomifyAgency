@@ -129,4 +129,5 @@ dependencies[] = agency_theme
 dependencies[] = agency_editor
 dependencies[] = agency_blog
 dependencies[] = agency_review
+dependencies[] = agency_contact_form
 dependencies[] = pet_to_users_role

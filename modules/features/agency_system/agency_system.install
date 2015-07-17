@@ -88,3 +88,10 @@ function agency_system_7011() {
 function agency_system_7012() {
   module_enable(array('entityform'));
 }
+
+/**
+ * Enables Entityforms Notifications module.
+ */
+function agency_system_7013() {
+  module_enable(array('entityform_notifications'));
+}
