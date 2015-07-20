@@ -85,6 +85,7 @@ dependencies[] = leaflet_views
 dependencies[] = libraries
 dependencies[] = navbar
 dependencies[] = pet
+dependencies[] = publishcontent
 dependencies[] = strongarm
 dependencies[] = token
 ; Panels

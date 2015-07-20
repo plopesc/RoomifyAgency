@@ -167,6 +167,9 @@ projects[pm_existing_pages][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
+projects[publishcontent][version] = "1.3"
+projects[publishcontent][subdir] = "contrib"
+
 projects[rooms][version] = "1.7"
 projects[rooms][subdir] = "contrib"
 

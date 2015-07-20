@@ -14,6 +14,13 @@ function agency_review_ctools_plugin_api($module = NULL, $api = NULL) {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function agency_review_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
+}
+
+/**
  * Implements hook_node_info().
  */
 function agency_review_node_info() {
@@ -40,7 +47,7 @@ function agency_review_default_pet() {
     "name" : "new_property_review",
     "title" : "New Property Review",
     "subject" : "New Property Review",
-    "mail_body" : "A new has been submitted from [site:name].",
+    "mail_body" : "A new review has been submitted from [site:name].",
     "mail_body_plain" : null,
     "send_plain" : "0",
     "from_override" : "",

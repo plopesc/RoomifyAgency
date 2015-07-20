@@ -126,6 +126,44 @@ function agency_units_default_page_manager_handlers() {
     $display->content['new-22cef680-48af-4db9-8a6d-82b1ee9dc993'] = $pane;
     $display->panels['left'][1] = 'new-22cef680-48af-4db9-8a6d-82b1ee9dc993';
     $pane = new stdClass();
+    $pane->pid = 'new-fd813419-52fc-4736-8984-e80e0d473414';
+    $pane->panel = 'left';
+    $pane->type = 'views';
+    $pane->subtype = 'property_reviews';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_pager_settings' => 0,
+      'use_pager' => 1,
+      'nodes_per_page' => '0',
+      'pager_id' => '0',
+      'offset' => '0',
+      'more_link' => 0,
+      'feed_icons' => 0,
+      'panel_args' => 0,
+      'link_to_view' => 0,
+      'args' => '',
+      'url' => '',
+      'display' => 'default',
+      'context' => array(
+        0 => 'argument_entity_id:rooms_unit_1.unit-id',
+      ),
+      'override_title' => 0,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = 'fd813419-52fc-4736-8984-e80e0d473414';
+    $display->content['new-fd813419-52fc-4736-8984-e80e0d473414'] = $pane;
+    $display->panels['left'][2] = 'new-fd813419-52fc-4736-8984-e80e0d473414';
+    $pane = new stdClass();
     $pane->pid = 'new-194cdaec-64d7-4dc5-a47c-a78df89b3f65';
     $pane->panel = 'right';
     $pane->type = 'block';
