@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,400italic|Lato:900);
 /* Bootstrap library reference. */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,400italic|Lato:900);
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
@@ -142,8 +142,8 @@ body div#admin-toolbar {
 body #toolbar,
 body #admin-menu,
 body #admin-toolbar {
-  -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 body #admin-menu {
@@ -456,8 +456,8 @@ ul li.leaf {
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
-  -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
   height: 4px;
   margin: -5px 0px 0;
@@ -610,8 +610,8 @@ a .glyphicon-spin {
 .tabs-left > .tab-content,
 .tabs-right > .tab-content {
   border-radius: 0 0px 0px 0px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #dddddd;
   overflow: hidden;
@@ -632,8 +632,8 @@ a .glyphicon-spin {
 .tabs-left > .nav-tabs > .active > a:hover,
 .tabs-left > .nav-tabs > .active > a:focus {
   border-color: #dddddd transparent #dddddd #dddddd;
-  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 .tabs-right > .nav-tabs {
@@ -646,8 +646,8 @@ a .glyphicon-spin {
 .tabs-right > .nav-tabs > li > a:hover,
 .tabs-right > .nav-tabs > li > a:focus {
   border-color: #eeeeee #eeeeee #eeeeee #dddddd;
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 .tabs-right > .nav-tabs > .active > a,
@@ -730,8 +730,8 @@ td.module,
   font-weight: bold;
 }
 .book-toc > .dropdown-menu .dropdown-menu {
-  -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border: 0;
   display: block;
@@ -1526,6 +1526,35 @@ body {
 }
 .unit--name:hover a {
   text-decoration: none;
+}
+.node-type-review .action-links a {
+  padding: 10px 30px;
+  background: #2196f3;
+  color: #ffffff;
+  font-size: 16px;
+  float: right;
+}
+.view-property-reviews .views-row {
+  margin-bottom: 15px;
+}
+.view-property-reviews .views-row .views-field {
+  margin-bottom: 5px;
+}
+.view-property-reviews .views-row .views-field-field-review-rating {
+  width: 60%;
+  float: left;
+  margin-top: 6px;
+}
+.view-property-reviews .views-row .views-field-field-review-name {
+  font-size: 20px;
+  float: left;
+  width: 40%;
+}
+.view-property-reviews .views-row .views-field-field-review-comments {
+  font-size: 16px;
+}
+.view-property-reviews .views-row .views-field-created {
+  font-size: 12px;
 }
 /* Custom font */
 body.navbar-administration {
