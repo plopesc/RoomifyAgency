@@ -1534,6 +1534,23 @@ body {
   font-size: 16px;
   float: right;
 }
+.node-type-review .field-name-field-review-name,
+.node-type-review .field-name-field-review-rating,
+.node-type-review .field-name-field-review-comments,
+.node-type-review .field-name-field-review-property {
+  font-size: 16px;
+}
+.node-type-review .pane-node-field-review-comments {
+  margin: 25px 0px;
+}
+.node-type-review .pane-title {
+  border-bottom: 2px solid #ff9800;
+  padding: 10px;
+  font-weight: 400;
+}
+.node-type-review .pane-content {
+  margin-left: 20px;
+}
 .view-property-reviews .views-row {
   margin-bottom: 15px;
 }
