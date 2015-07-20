@@ -50,7 +50,7 @@ function agency_review_default_pet() {
     "name" : "new_property_review",
     "title" : "New Property Review",
     "subject" : "New Property Review",
-    "mail_body" : "A new review has been submitted from [site:name].",
+    "mail_body" : "A new review has been submitted from [site:name].\\r\\n\\r\\nYou can edit and publish content at:\\r\\n[node:url]",
     "mail_body_plain" : null,
     "send_plain" : "0",
     "from_override" : "",

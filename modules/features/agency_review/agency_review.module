@@ -5,3 +5,18 @@
  */
 
 include_once 'agency_review.features.inc';
+
+/**
+ * Implements hook_pet_substitutions_alter().
+ */
+function agency_review_pet_substitutions_alter(&$substitutions, $params) {
+  if (isset($params['rules_state']) && isset($params['rules_state']->variables['node'])) {
+    $node = $params['rules_state']->variables['node']->value();
+    $node_edit = $node->nid;
+    $substitutions['node'] = $node;
+  }
+  else {
+    return;
+  }
+}
+

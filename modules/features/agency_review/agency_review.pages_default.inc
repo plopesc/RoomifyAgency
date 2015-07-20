@@ -187,7 +187,7 @@ function agency_review_default_page_manager_handlers() {
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'col-xs-12',
+      'css_class' => 'col-xs-12 col-sm-7',
     );
     $pane->extras = array();
     $pane->position = 3;

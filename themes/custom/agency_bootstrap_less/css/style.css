@@ -1547,9 +1547,14 @@ body {
   border-bottom: 2px solid #ff9800;
   padding: 10px;
   font-weight: 400;
+  margin-top: 5px;
 }
 .node-type-review .pane-content {
   margin-left: 20px;
+  padding: 10px 0px;
+}
+.node-type-review .panel-pane {
+  background: #f8f8f8;
 }
 .view-property-reviews .views-row {
   margin-bottom: 15px;
