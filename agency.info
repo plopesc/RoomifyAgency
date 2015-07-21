@@ -82,6 +82,7 @@ dependencies[] = geophp
 dependencies[] = leaflet
 dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
+dependencies[] = less
 dependencies[] = libraries
 dependencies[] = navbar
 dependencies[] = pet

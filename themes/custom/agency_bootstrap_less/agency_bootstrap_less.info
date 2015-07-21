@@ -21,10 +21,8 @@ regions[page_bottom] = Page bottom
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/bootstrap.css
-stylesheets[all][] = css/animate.css
-stylesheets[all][] = css/components/jquery-ui-custom.css
-stylesheets[all][] = css/style.css
+
+stylesheets[all][] = less/style.less
 
 
 ; ========================================

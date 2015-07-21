@@ -115,6 +115,9 @@ projects[leaflet][patch][] = "https://www.drupal.org/files/issues/leaflet-entity
 projects[leaflet_more_maps][version] = "1.12"
 projects[leaflet_more_maps][subdir] = "contrib"
 
+projects[less][version] = "4.0"
+projects[less][subdir] = "contrib"
+
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
@@ -294,6 +297,13 @@ libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
 libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+
+; less.php
+libraries[less.php][directory_name] = "less.php"
+libraries[less.php][type] = "library"
+libraries[less.php][destination] = "libraries"
+libraries[less.php][download][type] = "get"
+libraries[less.php][download][url] = "https://github.com/oyejorge/less.php/releases/download/v1.7.0.4/less.php_1.7.0.4.zip"
 
 ; mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
