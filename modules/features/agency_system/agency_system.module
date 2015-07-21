@@ -76,3 +76,11 @@ function agency_system_field_access($op, $field, $entity_type, $entity, $account
     }
   }
 }
+
+/**
+ * Implements hook_block_info_alter().
+ */
+function agency_system_block_info_alter(&$blocks, $theme, $code_blocks) {
+  // disable the login block
+  $blocks['user']['login']['status'] = 0;
+}
