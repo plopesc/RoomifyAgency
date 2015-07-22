@@ -20,3 +20,20 @@ function agency_review_pet_substitutions_alter(&$substitutions, $params) {
   }
 }
 
+/**
+ * Implements hook_node_access().
+ */
+function agency_review_node_access($node, $op, $account) {
+  if (isset($node->type) && $node->type == 'review') {
+    if (in_array('agency_owner', $account->roles)) {
+      return NODE_ACCESS_ALLOW;
+    }
+    else {
+      if ($node->status == 0) {
+        if (isset($node->field_review_property[LANGUAGE_NONE][0]['target_id'])) {
+          drupal_goto('/unit/' . $node->field_review_property[LANGUAGE_NONE][0]['target_id']);
+        }
+      }
+    }
+  }
+}
