@@ -65,6 +65,8 @@ function agency_units_form_rooms_booking_availability_search_form_block_alter(&$
       $form['actions']['submit']['#value'] = t('Book Now');
     }
   }
+
+  $form['actions']['submit']['#submit'] = array('agency_units_form_rooms_booking_availability_search_form_block_submit');
 }
 
 /**
@@ -121,4 +123,74 @@ function agency_units_rooms_unit_edit_submit($form, &$form_state) {
 
   // Redirect to the my units page.
   $form_state['redirect'] = 'admin/rooms/my-units';
+}
+
+/**
+ * Submit handler for rooms booking availability search.
+ */
+function agency_units_form_rooms_booking_availability_search_form_block_submit(&$form, &$form_state) {
+  list($start_date, $end_date) = rooms_form_input_get_start_end_dates($form_state);
+
+  $units = $form_state['values']['rooms'];
+
+  $rooms_query = array();
+
+  if (isset($form_state['values']['unit_type'])) {
+    if (!empty($form_state['values']['unit_type'])) {
+      $rooms_query['type'] = $form_state['values']['unit_type'];
+    }
+    else {
+      $rooms_query['type'] = 'all';
+    }
+  }
+
+  // Get parameter for AvailabilityAgentSingleUnitFilter.
+  if (isset($form_state['values']['rooms_id'])) {
+    $rooms_query['rooms_id'] = $form_state['values']['rooms_id'];
+  }
+
+  $rooms_query += rooms_booking_manager_get_plugin_parameters($form_state);
+
+  // Collect the values for booking parameters.
+  foreach ($form_state['values'] as $key => $value) {
+    $keys = explode(':', $key);
+
+    if (count($keys) == 2) {
+      if ($keys[0] == 'group_size_adults') {
+        $rooms_query['rooms_group_size' . $keys[1]] = $value;
+      }
+      if ($keys[0] == 'group_size_children') {
+        $rooms_query['rooms_children' . $keys[1]] = $value;
+      }
+    }
+  }
+
+  $booking_parameters = rooms_booking_manager_retrieve_booking_parameters($units, $rooms_query);
+
+  // Get all the units.
+  $agent = new AvailabilityAgent($start_date, $end_date, $booking_parameters, $units, array_keys(array_filter(variable_get('rooms_valid_availability_states', drupal_map_assoc(array(ROOMS_AVAILABLE, ROOMS_ON_REQUEST))))));
+
+  $units_per_type = $agent->checkAvailability();
+
+  // Give other modules a chance to change the search results.
+  drupal_alter('rooms_booking_results', $units_per_type, $start_date, $end_date, $booking_parameters);
+
+  // If we don't have any useful result to show just display a failure message.
+  if (($units_per_type == ROOMS_NO_ROOMS) || ($units_per_type == ROOMS_SIZE_FAILURE)) {
+    // Create a warning message.
+    drupal_set_message(variable_get_value('rooms_booking_manager_warning_no_units_available'), 'warning');
+
+    // If user doesn't search within unit page redirect to the main search page.
+    if (!menu_get_object('rooms_unit', 1)) {
+      $form_state['redirect'] = array('search-availability');
+    }
+  }
+  else {
+    $form_state['redirect'] = array(
+      'booking/' . $start_date->format('Y-m-d') . '/' . $end_date->format('Y-m-d') . '/' . $units,
+      array(
+        'query' => $rooms_query,
+      ),
+    );
+  }
 }
