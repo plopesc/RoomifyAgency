@@ -147,6 +147,7 @@ function agency_users_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'agency_owner' => 'agency_owner',
+      'property_owner' => 'property_owner',
     ),
     'module' => 'rooms_booking',
   );
