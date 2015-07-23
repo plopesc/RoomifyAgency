@@ -191,6 +191,18 @@ function agency_homepage_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['empty'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Indexed Bookable Units: Property Image */
+  $handler->display->display_options['fields']['field_property_image']['id'] = 'field_property_image';
+  $handler->display->display_options['fields']['field_property_image']['table'] = 'search_api_index_units';
+  $handler->display->display_options['fields']['field_property_image']['field'] = 'field_property_image';
+  $handler->display->display_options['fields']['field_property_image']['label'] = '';
+  $handler->display->display_options['fields']['field_property_image']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_property_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_property_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_property_image']['settings'] = array(
+    'image_style' => 'thumb_unit_search',
+    'image_link' => '',
+  );
   /* Field: Indexed Bookable Units: Bookable units ID */
   $handler->display->display_options['fields']['unit_id']['id'] = 'unit_id';
   $handler->display->display_options['fields']['unit_id']['table'] = 'search_api_index_units';
@@ -236,7 +248,7 @@ function agency_homepage_views_default_views() {
   $handler->display->display_options['fields']['nothing']['ui_name'] = 'Availability search';
   $handler->display->display_options['fields']['nothing']['label'] = '';
   $handler->display->display_options['fields']['nothing']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<a href="/availability/nojs/[unit_id]" class="ctools-use-modal ctools-modal-rooms-responsive" title="View this unitʼs availability calendar">Check Availability</a>';
+  $handler->display->display_options['fields']['nothing']['alter']['text'] = '<a href="/unit/[unit_id]" class="button">Check availability and rates</a>';
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   /* Field: Global: Custom text */
   $handler->display->display_options['fields']['nothing_1']['id'] = 'nothing_1';
@@ -244,9 +256,10 @@ function agency_homepage_views_default_views() {
   $handler->display->display_options['fields']['nothing_1']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing_1']['label'] = '';
   $handler->display->display_options['fields']['nothing_1']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['nothing_1']['alter']['text'] = '<strong>[name]</strong><br />
-[field_address]<br />
-[nothing]';
+  $handler->display->display_options['fields']['nothing_1']['alter']['text'] = '[field_property_image]
+  <div class="title"><a href="/unit/[unit_id]">[name]</a></div><br />
+  [field_address]<br />
+  [nothing]';
   $handler->display->display_options['fields']['nothing_1']['element_label_colon'] = FALSE;
   $export['unit_availability_search'] = $view;
 
