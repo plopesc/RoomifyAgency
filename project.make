@@ -188,6 +188,12 @@ projects[rooms_channel_manager][download][url] = "https://github.com/Roomify/roo
 projects[rooms_channel_manager][directory_name] = "rooms_channel_manager"
 projects[rooms_channel_manager][subdir] = "contrib"
 
+projects[rooms_commission_rates][type] = module
+projects[rooms_commission_rates][download][type] = "git"
+projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomify/rooms_commission_rates.git"
+projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
+projects[rooms_commission_rates][subdir] = "contrib"
+
 projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"
 projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
