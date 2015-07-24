@@ -79,8 +79,11 @@ body {
     position: relative;
     top: 200px;
     display: block;
-    max-width: 900px;
     margin: 0 auto;
+    #edit-container {
+      display: table;
+      margin: 0 auto;
+    }
     input, select, .form-control {
       border-radius: 0px;
       -webkit-appearance: inherit;
@@ -107,6 +110,59 @@ body {
       padding-right: 30px;
       border:0;
 
+    }
+  }
+}
+@media only screen and (min-width: @screen-sm) and (max-width: @screen-md) {
+  .pane-homepage-search-form {
+    padding: 0 12px;
+    form {
+      .rooms-date-range input,
+      #edit_location_chosen {
+        width: 170px !important;
+      }
+      button {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+@media @phone {
+  .pane-homepage-search-form {
+    form {
+      top: 90px;
+      padding: 0 50px;
+      #edit-container {
+        width: 100%;
+      }
+      .form-item-location {
+        display: block;
+        margin: 0 0 5px 0;
+        #edit_location_chosen {
+          width: 100% !important;
+        }
+      }
+      .rooms-date-range {
+        display: inline-block;
+        width: 100%;
+        div {
+          display: block;
+          width: 100%;
+        }
+        .start-date {
+          input {
+            margin-bottom: 5px;
+          }
+        }
+        input {
+          width: 100%;
+        }
+      }
+      button {
+        margin: 12px 0 0 0;
+        width: 100%;
+      }
     }
   }
 }
@@ -163,40 +219,3 @@ body {
   }
 }
 
-.leaflet-popup {
-  .leaflet-popup-content {
-    min-width: 310px;
-    display: inline-block;
-    img {
-      width: 150px;
-      float: left;
-      margin-right: 10px;
-    }
-    div.title {
-      font-weight: bold;
-      font-size: 14px;
-      display: inline-block;
-      margin-bottom: 3px;
-    }
-    a.button {
-      width: 100%;
-      text-align: center;
-      padding: .35em;
-      margin-top: 7px;
-      float: left;
-      background-color: @light-blue;
-      border-color: #f8f8f8;
-      color: white;
-      font-size: 1.15em;
-      font-weight: 600;
-      .transition(.5s background-color);
-      &:hover {
-        background-color: @blue;
-        text-decoration: none;
-      }
-    }
-    div.addressfield-container-inline:after {
-      display: inline;
-    }
-  }
-}
