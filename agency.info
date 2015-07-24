@@ -105,6 +105,7 @@ dependencies[] = rooms_unit
 dependencies[] = rooms_views
 dependencies[] = rooms_channel_manager
 dependencies[] = rooms_notification
+dependencies[] = rooms_commission_rates
 ; Rules
 dependencies[] = rules
 dependencies[] = rules_conditional
