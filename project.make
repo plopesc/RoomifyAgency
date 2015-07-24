@@ -302,7 +302,7 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://leaflet-cdn.s3.amazonaws.com/build/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "https://github.com/Leaflet/Leaflet/archive/v0.7.3.zip"
 
 ; less.php
 libraries[less.php][directory_name] = "less.php"
