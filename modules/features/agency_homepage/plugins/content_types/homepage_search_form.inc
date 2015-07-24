@@ -166,7 +166,7 @@ function agency_homepage_search($form, $form_state) {
 
   $form['container']['submit'] = array(
     '#type' => 'submit',
-    '#value' => 'Search',
+    '#value' => variable_get('rooms_booking_manager_button_search_for_availability', 'Search'),
   );
 
   return $form;
