@@ -6,6 +6,15 @@
  */
 
 /**
+ * Implements hook_enable().
+ *
+ * Set up some variables.
+ */
+function agency_system_enable() {
+  variable_set('less_engine', 'less.php');
+}
+
+/**
  * Enables jquery_update module.
  */
 function agency_system_7001() {
