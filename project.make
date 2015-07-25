@@ -213,6 +213,9 @@ projects[rules][subdir] = "contrib"
 projects[rules_conditional][version] = "1.0-beta2"
 projects[rules_conditional][subdir] = "contrib"
 
+projects[rrssb][version] = "1.0-rc2"
+projects[rrssb][subdir] = "contrib"
+
 projects[search_api][version] = "1.15"
 projects[search_api][subdir] = "contrib"
 

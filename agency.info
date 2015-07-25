@@ -87,6 +87,7 @@ dependencies[] = libraries
 dependencies[] = navbar
 dependencies[] = pet
 dependencies[] = publishcontent
+dependencies[] = rrssb
 dependencies[] = strongarm
 dependencies[] = token
 ; Panels
