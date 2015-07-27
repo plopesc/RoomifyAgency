@@ -1,0 +1,96 @@
+<?php
+
+/**
+ * @file
+ * Manage Settings - Settings that can be configured
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory()
+ */
+function agency_social_settings_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools' && $plugin_type == 'content_types') {
+    return 'plugins/content_types';
+  }
+}
+
+/**
+ * Implements hook_menu().
+ */
+function agency_social_settings_menu() {
+  $items  =  array();
+  $items['admin/rooms/config/social-settings'] = array(
+    'title' => t('Social Share Settings'),
+    'description' => t('Manage social settings for your Agency site.'),
+    'page callback' => 'system_admin_menu_block_page',
+    'access arguments' => array('access administration pages'),
+    'file path' => drupal_get_path('module', 'system'),
+    'file' => 'system.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/rooms/config/social-settings/social-buttons'] = array(
+    'title' => t('Manage Social buttons'),
+    'description' => t('Choose which social buttons should appear.'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('rrssb_form'),
+    'access arguments' => array('configure room settings'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/rooms/config/social-settings/configure-socials'] = array(
+    'title' => t('Manage your social pages'),
+    'description' => t('Edit your social pages links.'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('agency_social_settings_form'),
+    'access arguments' => array('configure room settings'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+function agency_social_settings_form() {
+  $form = array();
+  $form['agency_social_facebook'] = array(
+    '#title' => t('Facebook URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://facebook.com',
+    '#default_value' => variable_get('agency_social_facebook', ''),
+  );
+  $form['agency_social_twitter'] = array(
+    '#title' => t('Twitter URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://twitter.com',
+    '#default_value' => variable_get('agency_social_twitter', ''),
+  );
+  $form['agency_social_tumblr'] = array(
+    '#title' => t('Tumblr URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://tumblr.com',
+    '#default_value' => variable_get('agency_social_tumblr', ''),
+  );
+  $form['agency_social_linkedin'] = array(
+    '#title' => t('Linkedin URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://linkedin.com',
+    '#default_value' => variable_get('agency_social_linkedin', ''),
+  );
+  $form['agency_social_googleplus'] = array(
+    '#title' => t('Google+ URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://plus.google.com',
+    '#default_value' => variable_get('agency_social_googleplus', ''),
+  );
+  $form['agency_social_pinterest'] = array(
+    '#title' => t('Pinterest URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://pinterest.com',
+    '#default_value' => variable_get('agency_social_pinterest', ''),
+  );
+  $form['agency_social_instagram'] = array(
+    '#title' => t('Instagram URL'),
+    '#type' => 'textfield',
+    '#description' => 'e.g. http://instagram.com',
+    '#default_value' => variable_get('agency_social_instagram', ''),
+  );
+
+  return system_settings_form($form);
+ }
