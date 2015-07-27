@@ -483,6 +483,25 @@ function agency_homepage_default_page_manager_pages() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
+    $pane->pid = 'new-39a9d3e5-8bde-4722-9eac-ae3e410467c8';
+    $pane->panel = 'bottom';
+    $pane->type = 'agency_social_links';
+    $pane->subtype = 'agency_social_links';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = '39a9d3e5-8bde-4722-9eac-ae3e410467c8';
+    $display->content['new-39a9d3e5-8bde-4722-9eac-ae3e410467c8'] = $pane;
+    $display->panels['bottom'][0] = 'new-39a9d3e5-8bde-4722-9eac-ae3e410467c8';
+    $pane = new stdClass();
     $pane->pid = 'new-13cb50bb-fdfa-41b6-ba18-c77749f77fc6';
     $pane->panel = 'middle';
     $pane->type = 'views';
