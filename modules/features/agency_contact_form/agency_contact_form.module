@@ -5,3 +5,20 @@
  */
 
 include_once 'agency_contact_form.features.inc';
+
+/**
+ * Implements hook_form_FORMID_alter()
+ */
+function agency_contact_form_form_contact_entityform_edit_form_alter(&$form, &$form_state, $form_id) {
+  $form['#validate'][] = 'agency_contact_form_contact_entityform_validate';
+}
+
+/**
+ * Custom validation handler for contact form.
+ */
+function agency_contact_form_contact_entityform_validate(&$form, &$form_state) {
+  if (empty($form_state['values']['field_contact_phone'][$form['field_contact_phone']['#language']][0]['value']) &&
+      empty($form_state['values']['field_contact_email'][$form['field_contact_email']['#language']][0]['email'])) {
+    form_set_error('field_contact_email', t('Please fill in the email or phone number field'));
+  }
+}
