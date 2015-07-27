@@ -164,6 +164,29 @@ function agency_units_default_page_manager_handlers() {
     $display->content['new-fd813419-52fc-4736-8984-e80e0d473414'] = $pane;
     $display->panels['left'][2] = 'new-fd813419-52fc-4736-8984-e80e0d473414';
     $pane = new stdClass();
+    $pane->pid = 'new-13dd069a-25e4-414e-bd71-b3082d82feed';
+    $pane->panel = 'left';
+    $pane->type = 'block';
+    $pane->subtype = 'rrssb-rrssb';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $pane->uuid = '13dd069a-25e4-414e-bd71-b3082d82feed';
+    $display->content['new-13dd069a-25e4-414e-bd71-b3082d82feed'] = $pane;
+    $display->panels['left'][3] = 'new-13dd069a-25e4-414e-bd71-b3082d82feed';
+    $pane = new stdClass();
     $pane->pid = 'new-194cdaec-64d7-4dc5-a47c-a78df89b3f65';
     $pane->panel = 'right';
     $pane->type = 'block';

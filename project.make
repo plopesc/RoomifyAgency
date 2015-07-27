@@ -213,7 +213,7 @@ projects[rules][subdir] = "contrib"
 projects[rules_conditional][version] = "1.0-beta2"
 projects[rules_conditional][subdir] = "contrib"
 
-projects[rrssb][version] = "1.0-rc2"
+projects[rrssb][version] = "1.x-dev"
 projects[rrssb][subdir] = "contrib"
 
 projects[search_api][version] = "1.15"
@@ -356,6 +356,13 @@ libraries[rooms_fullcalendar][type] = "library"
 libraries[rooms_fullcalendar][destination] = "libraries"
 libraries[rooms_fullcalendar][download][type] = "get"
 libraries[rooms_fullcalendar][download][url] = "http://www.drupalrooms.com/sites/default/files/rooms_fullcalendar-2.1.1.zip"
+
+; rrssb
+libraries[rrssb][directory_name] = "rrssb"
+libraries[rrssb][type] = "library"
+libraries[rrssb][destination] = "libraries"
+libraries[rrssb][download][type] = "get"
+libraries[rrssb][download][url] = "https://github.com/kni-labs/rrssb/archive/1.8.1.zip"
 
 ; underscore
 libraries[underscore][directory_name] = "underscore"
