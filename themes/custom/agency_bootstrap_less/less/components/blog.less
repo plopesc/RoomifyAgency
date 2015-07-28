@@ -1,0 +1,119 @@
+.page-blog {
+  .view-display-id-panel_pane_2 {
+    .views-row {
+      padding-right: 0px;
+      padding-left: 0px;
+      img {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+      }
+      .views-field-nothing {
+        padding: 20px;
+        position: absolute;
+        top: 80px;
+        right: 15px;
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.85);
+        .agency-blogpost-to-top-text {
+          .post-title {
+            font-size: 36px;
+            margin-bottom: 25px;
+            a {
+              color: black;
+              &:hover {
+                color: @blue;
+                text-decoration: none;
+              }
+              .transition(250ms color ease-out);
+            }
+          }
+          .post-by {
+            text-align: right;
+            margin: 25px 0px;
+          }
+          .post-body {
+            font-size: 16px;
+            margin: 45px 0px;
+            @media (max-width: @screen-sm) {
+              margin: 20px 0px;
+            }
+          }
+        }
+        @media (max-width: @screen-sm) {
+          position: initial;
+          width: 100%;
+          background-color: orange;
+          text-align: center;
+          .agency-blogpost-to-top-text {
+            .post-by {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* Masonry blog posts */
+  .pane-blog-panel-pane-3 {
+    .pane-title {
+      .title-between-lines(#d0d0d0, #515151);
+      padding: 10px;
+    }
+  }
+  .view-display-id-panel_pane_3 {
+    .view-content {
+      margin: 0 auto;
+    }
+    .masonry-item {
+      .box-shadow(3px 4px 5px 0px rgba(0,0,0,0.75));
+      width: 320px;
+      margin: 25px 0px;
+      .views-field-body {
+        background-color: @gray-lighter;
+        color: black;
+        font-weight: 300;
+        padding: 0px 10px 10px 10px;
+        .field-content {
+          padding-top: 10px;
+        }
+      }
+      .views-field-title { 
+        background: @light-blue;
+        padding: 10px;
+        a {
+          color: white;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+      &:hover {
+        .animated.hinge();
+        .pulse();
+      }
+    }
+  }
+  .pager-load-more {
+    width: 40%;
+    top: 20px;
+    left: 30%;
+    position: relative;
+    a {
+      background-color: transparent;
+      border: 2px solid @light-blue;
+      color: black;
+      font-size: 18px;
+      width: 100%;
+      .border-radius(0px);
+      &:hover {
+        background-color: @light-blue;
+        color: white;
+      }
+      .transition(350ms all ease-out);
+    }
+    @media (max-width: @screen-sm) {
+      width: 80%;
+      left: 10%;
+    }
+  }
+}

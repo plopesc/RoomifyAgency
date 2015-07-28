@@ -133,6 +133,12 @@ projects[mailchimp][subdir] = "contrib"
 projects[manualcrop][version] = "1.4"
 projects[manualcrop][subdir] = "contrib"
 
+projects[masonry][version] = "3.0-beta1"
+projects[masonry][subdir] = "contrib"
+
+projects[masonry_views][version] = "3.0-beta1"
+projects[masonry_views][subdir] = "contrib"
+
 projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
 
@@ -240,6 +246,9 @@ projects[views][subdir] = "contrib"
 projects[views_bootstrap][version] = "3.1"
 projects[views_bootstrap][subdir] = "contrib"
 
+projects[views_load_more][version] = "1.5"
+projects[views_load_more][subdir] = "contrib"
+
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
 
@@ -300,6 +309,13 @@ libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.1/flat/0.9/ckeditor_4.5.1_991f0249c798.zip"
 
+; imagesloaded
+libraries[imagesloaded][directory_name] = "imagesloaded"
+libraries[imagesloaded][type] = "library"
+libraries[imagesloaded][destination] = "libraries"
+libraries[imagesloaded][download][type] = "get"
+libraries[imagesloaded][download][url] = "http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"
+
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
@@ -320,6 +336,13 @@ libraries[mailchimp][type] = "library"
 libraries[mailchimp][destination] = "libraries"
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
+
+; masonry
+libraries[masonry][directory_name] = "masonry"
+libraries[masonry][type] = "library"
+libraries[masonry][destination] = "libraries"
+libraries[masonry][download][type] = "get"
+libraries[masonry][download][url] = "http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"
 
 ; modernizr
 libraries[modernizr][directory_name] = "modernizr"

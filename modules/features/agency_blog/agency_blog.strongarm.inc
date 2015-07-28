@@ -68,7 +68,13 @@ function agency_blog_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '-5',
+          'weight' => 0,
+        ),
+        'metatags' => array(
+          'weight' => 7,
+        ),
+        'xmlsitemap' => array(
+          'weight' => 6,
         ),
       ),
       'display' => array(),
