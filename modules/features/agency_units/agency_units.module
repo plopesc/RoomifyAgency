@@ -165,15 +165,19 @@ function agency_units_form_rooms_booking_availability_search_form_block_submit(&
     }
   }
 
-  $booking_parameters = rooms_booking_manager_retrieve_booking_parameters($units, $rooms_query);
+  $_GET['bookable_units'] = $form_state['values']['bookable_units'];
+
+  $booking_parameters = rooms_booking_manager_retrieve_booking_parameters(1, $rooms_query);
 
   // Get all the units.
-  $agent = new AvailabilityAgent($start_date, $end_date, $booking_parameters, $units, array_keys(array_filter(variable_get('rooms_valid_availability_states', drupal_map_assoc(array(ROOMS_AVAILABLE, ROOMS_ON_REQUEST))))));
+  $agent = new AvailabilityAgent($start_date, $end_date, $booking_parameters, 1, array_keys(array_filter(variable_get('rooms_valid_availability_states', drupal_map_assoc(array(ROOMS_AVAILABLE, ROOMS_ON_REQUEST))))));
 
   $units_per_type = $agent->checkAvailability();
 
   // Give other modules a chance to change the search results.
   drupal_alter('rooms_booking_results', $units_per_type, $start_date, $end_date, $booking_parameters);
+
+  unset($_GET['bookable_units']);
 
   // If we don't have any useful result to show just display a failure message.
   if (($units_per_type == ROOMS_NO_ROOMS) || ($units_per_type == ROOMS_SIZE_FAILURE)) {
