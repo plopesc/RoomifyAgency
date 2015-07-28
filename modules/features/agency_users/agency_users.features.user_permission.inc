@@ -216,6 +216,15 @@ function agency_users_user_default_permissions() {
     'module' => 'rrssb',
   );
 
+  // Exported permission: 'administer url aliases'.
+  $permissions['administer url aliases'] = array(
+    'name' => 'administer url aliases',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'path',
+  );
+
   // Exported permission: 'book units'.
   $permissions['book units'] = array(
     'name' => 'book units',
@@ -307,6 +316,16 @@ function agency_users_user_default_permissions() {
       'property_owner' => 'property_owner',
     ),
     'module' => 'rooms_unit',
+  );
+
+  // Exported permission: 'create url aliases'.
+  $permissions['create url aliases'] = array(
+    'name' => 'create url aliases',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
+    'module' => 'path',
   );
 
   // Exported permission: 'delete any location content'.
