@@ -124,6 +124,7 @@ dependencies[] = agency_homepage
 dependencies[] = agency_location
 dependencies[] = agency_units
 dependencies[] = agency_users
+dependencies[] = agency_page
 dependencies[] = agency_system
 dependencies[] = agency_features_views
 dependencies[] = agency_image_styles
