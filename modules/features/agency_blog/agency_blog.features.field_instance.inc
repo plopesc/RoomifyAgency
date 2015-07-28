@@ -227,7 +227,7 @@ function agency_blog_field_default_field_instances() {
   // Exported field_instance: 'node-blog-field_tags'
   $field_instances['node-blog-field_tags'] = array(
     'bundle' => 'blog',
-    'default_value' => NULL,
+    'default_value' => array(),
     'deleted' => 0,
     'description' => 'Enter free tags to categorize this post.',
     'display' => array(
@@ -254,12 +254,13 @@ function agency_blog_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 0,
-      'module' => 'taxonomy',
+      'module' => 'options',
       'settings' => array(
+        'apply_chosen' => '',
         'autocomplete_path' => 'taxonomy/autocomplete',
         'size' => 60,
       ),
-      'type' => 'taxonomy_autocomplete',
+      'type' => 'options_select',
       'weight' => 3,
     ),
   );
