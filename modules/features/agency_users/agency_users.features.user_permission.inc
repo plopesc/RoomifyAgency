@@ -46,7 +46,10 @@ function agency_users_user_default_permissions() {
   // Exported permission: 'access content overview'.
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+      'agency_owner' => 'agency_owner',
+    ),
     'module' => 'node',
   );
 
