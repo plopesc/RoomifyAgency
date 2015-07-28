@@ -221,6 +221,7 @@ projects[rules_conditional][subdir] = "contrib"
 
 projects[rrssb][version] = "1.x-dev"
 projects[rrssb][subdir] = "contrib"
+projects[rrssb][patch][] = "https://www.drupal.org/files/issues/rrssb-fix_unsupported_operands-2541648-1.patch"
 
 projects[search_api][version] = "1.15"
 projects[search_api][subdir] = "contrib"
