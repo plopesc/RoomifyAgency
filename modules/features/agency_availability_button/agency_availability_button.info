@@ -1,6 +1,0 @@
-name = Agency availability button
-description = Ctools content type plugin to create the availability button
-core = 7.x
-
-dependencies[] = ctools
-dependencies[] = panels

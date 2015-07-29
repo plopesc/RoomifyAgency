@@ -2,6 +2,48 @@
 core = "7.x"
 api = "2"
 
+; Rooms Modules
+projects[rooms][version] = "1.7"
+projects[rooms][subdir] = "contrib"
+
+projects[rooms_availability_reference_modal][type] = module
+projects[rooms_availability_reference_modal][download][type] = "git"
+projects[rooms_availability_reference_modal][download][url] = "https://github.com/BluesparkLabs/rooms_availability_reference_modal.git"
+projects[rooms_availability_reference_modal][directory_name] = "rooms_availability_reference_modal"
+projects[rooms_availability_reference_modal][subdir] = "contrib"
+
+projects[rooms_channel_manager][type] = module
+projects[rooms_channel_manager][download][type] = "git"
+projects[rooms_channel_manager][download][url] = "https://github.com/Roomify/rooms-channel-manager.git"
+projects[rooms_channel_manager][directory_name] = "rooms_channel_manager"
+projects[rooms_channel_manager][subdir] = "contrib"
+
+projects[rooms_commission_rates][type] = module
+projects[rooms_commission_rates][download][type] = "git"
+projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomify/rooms_commission_rates.git"
+projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
+projects[rooms_commission_rates][subdir] = "contrib"
+
+projects[rooms_notification][type] = module
+projects[rooms_notification][download][type] = "git"
+projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
+projects[rooms_notification][directory_name] = "rooms_notification"
+projects[rooms_notification][subdir] = "contrib"
+
+projects[rooms_views][type] = module
+projects[rooms_views][download][type] = "git"
+projects[rooms_views][download][url] = "https://github.com/Roomify/rooms_views.git"
+projects[rooms_views][download][branch] = "group_size_filter"
+projects[rooms_views][directory_name] = "rooms_views"
+projects[rooms_views][subdir] = "contrib"
+
+projects[agency_availability_button][type] = module
+projects[agency_availability_button][download][type] = "git"
+projects[agency_availability_button][download][url] = "git@github.com:Roomify/agency_availability_button.git"
+projects[agency_availability_button][branch] = "7.x-1.x"
+projects[agency_availability_button][subdir] = "contrib"
+
+
 ; +++++ Modules +++++
 
 projects[addressfield][version] = "1.1"
@@ -178,40 +220,6 @@ projects[profiler_builder][subdir] = "contrib"
 
 projects[publishcontent][version] = "1.3"
 projects[publishcontent][subdir] = "contrib"
-
-projects[rooms][version] = "1.7"
-projects[rooms][subdir] = "contrib"
-
-projects[rooms_availability_reference_modal][type] = module
-projects[rooms_availability_reference_modal][download][type] = "git"
-projects[rooms_availability_reference_modal][download][url] = "https://github.com/BluesparkLabs/rooms_availability_reference_modal.git"
-projects[rooms_availability_reference_modal][directory_name] = "rooms_availability_reference_modal"
-projects[rooms_availability_reference_modal][subdir] = "contrib"
-
-projects[rooms_channel_manager][type] = module
-projects[rooms_channel_manager][download][type] = "git"
-projects[rooms_channel_manager][download][url] = "https://github.com/Roomify/rooms-channel-manager.git"
-projects[rooms_channel_manager][directory_name] = "rooms_channel_manager"
-projects[rooms_channel_manager][subdir] = "contrib"
-
-projects[rooms_commission_rates][type] = module
-projects[rooms_commission_rates][download][type] = "git"
-projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomify/rooms_commission_rates.git"
-projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
-projects[rooms_commission_rates][subdir] = "contrib"
-
-projects[rooms_notification][type] = module
-projects[rooms_notification][download][type] = "git"
-projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
-projects[rooms_notification][directory_name] = "rooms_notification"
-projects[rooms_notification][subdir] = "contrib"
-
-projects[rooms_views][type] = module
-projects[rooms_views][download][type] = "git"
-projects[rooms_views][download][url] = "https://github.com/Roomify/rooms_views.git"
-projects[rooms_views][download][branch] = "group_size_filter"
-projects[rooms_views][directory_name] = "rooms_views"
-projects[rooms_views][subdir] = "contrib"
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
