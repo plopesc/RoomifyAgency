@@ -160,6 +160,9 @@ projects[panels_bootstrap_layouts][subdir] = "contrib"
 projects[panels_tabs][version] = "2.x-dev"
 projects[panels_tabs][subdir] = "contrib"
 
+projects[pathauto][version] = "1.2"
+projects[pathauto][subdir] = "contrib"
+
 projects[pet][type] = module
 projects[pet][version] = 1.0-rc1
 projects[pet][subdir] = "contrib"
