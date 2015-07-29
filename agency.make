@@ -97,6 +97,12 @@ projects[agency_page][download][url] = "git@github.com:Roomify/agency_page.git"
 projects[agency_page][branch] = "7.x-1.x"
 projects[agency_page][subdir] = "contrib"
 
+projects[agency_property_map][type] = module
+projects[agency_property_map][download][type] = "git"
+projects[agency_property_map][download][url] = "git@github.com:Roomify/agency_property_map.git"
+projects[agency_property_map][branch] = "7.x-1.x"
+projects[agency_property_map][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
