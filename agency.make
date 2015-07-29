@@ -85,6 +85,12 @@ projects[agency_location][download][url] = "git@github.com:Roomify/agency_locati
 projects[agency_location][branch] = "7.x-1.x"
 projects[agency_location][subdir] = "contrib"
 
+projects[agency_mailchimp][type] = module
+projects[agency_mailchimp][download][type] = "git"
+projects[agency_mailchimp][download][url] = "git@github.com:Roomify/agency_mailchimp.git"
+projects[agency_mailchimp][branch] = "7.x-1.x"
+projects[agency_mailchimp][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
