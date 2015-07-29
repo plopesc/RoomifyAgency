@@ -115,6 +115,12 @@ projects[agency_review][download][url] = "git@github.com:Roomify/agency_review.g
 projects[agency_review][branch] = "7.x-1.x"
 projects[agency_review][subdir] = "contrib"
 
+projects[agency_social_settings][type] = module
+projects[agency_social_settings][download][type] = "git"
+projects[agency_social_settings][download][url] = "git@github.com:Roomify/agency_social_settings.git"
+projects[agency_social_settings][branch] = "7.x-1.x"
+projects[agency_social_settings][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
