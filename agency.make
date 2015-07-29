@@ -49,6 +49,12 @@ projects[agency_blog][download][url] = "git@github.com:Roomify/agency_blog.git"
 projects[agency_blog][branch] = "7.x-1.x"
 projects[agency_blog][subdir] = "contrib"
 
+projects[agency_contact_form][type] = module
+projects[agency_contact_form][download][type] = "git"
+projects[agency_contact_form][download][url] = "git@github.com:Roomify/agency_contact_form.git"
+projects[agency_contact_form][branch] = "7.x-1.x"
+projects[agency_contact_form][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
