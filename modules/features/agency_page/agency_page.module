@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Agency page feature.
- */
-
-include_once 'agency_page.features.inc';
