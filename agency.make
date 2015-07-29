@@ -145,6 +145,12 @@ projects[agency_users][download][url] = "git@github.com:Roomify/agency_users.git
 projects[agency_users][branch] = "7.x-1.x"
 projects[agency_users][subdir] = "contrib"
 
+projects[pet_to_users_role][type] = module
+projects[pet_to_users_role][download][type] = "git"
+projects[pet_to_users_role][download][url] = "git@github.com:Roomify/pet_to_users_role.git"
+projects[pet_to_users_role][branch] = "7.x-1.x"
+projects[pet_to_users_role][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 

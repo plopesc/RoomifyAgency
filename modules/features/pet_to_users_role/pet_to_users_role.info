@@ -1,5 +1,0 @@
-name = Previewable Email Templates to users role
-description = Send mail to users of a specified role vie PET module.
-dependencies[] = pet
-core = 7.x
-package = Mail
