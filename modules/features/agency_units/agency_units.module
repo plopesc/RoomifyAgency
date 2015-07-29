@@ -114,6 +114,35 @@ function agency_units_form_rooms_unit_edit_form_alter(&$form, $form_state) {
       $form['actions']['submit']['#submit'][] = 'agency_units_rooms_unit_edit_submit';
     }
   }
+
+  // Hide "Availability Calendar" field.
+  if (isset($form['field_availability_calendar'])) {
+    $form['field_availability_calendar']['#access'] = FALSE;
+  }
+}
+
+/**
+ * Implements hook_entity_insert().
+ */
+function agency_units_entity_insert($entity, $type) {
+  // Fill the Availability reference field with its own id.
+  if ($type == 'rooms_unit') {
+    if (!isset($entity->field_availability_calendar['und'][0]['unit_id'])) {
+      $entity->field_availability_calendar['und'][0]['unit_id'] = $entity->unit_id;
+    }
+  }
+}
+
+/**
+ * Implements hook_entity_update().
+ */
+function agency_units_entity_update($entity, $type) {
+  // Fill the Availability reference field with its own id.
+  if ($type == 'rooms_unit') {
+    if (!isset($entity->field_availability_calendar['und'][0]['unit_id'])) {
+      $entity->field_availability_calendar['und'][0]['unit_id'] = $entity->unit_id;
+    }
+  }
 }
 
 /**
