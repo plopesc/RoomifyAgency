@@ -79,6 +79,12 @@ projects[agency_image_styles][download][url] = "git@github.com:Roomify/agency_im
 projects[agency_image_styles][branch] = "7.x-1.x"
 projects[agency_image_styles][subdir] = "contrib"
 
+projects[agency_location][type] = module
+projects[agency_location][download][type] = "git"
+projects[agency_location][download][url] = "git@github.com:Roomify/agency_location.git"
+projects[agency_location][branch] = "7.x-1.x"
+projects[agency_location][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
