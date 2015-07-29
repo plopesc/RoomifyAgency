@@ -133,6 +133,12 @@ projects[agency_theme][download][url] = "git@github.com:Roomify/agency_theme.git
 projects[agency_theme][branch] = "7.x-1.x"
 projects[agency_theme][subdir] = "contrib"
 
+projects[agency_units][type] = module
+projects[agency_units][download][type] = "git"
+projects[agency_units][download][url] = "git@github.com:Roomify/agency_units.git"
+projects[agency_units][branch] = "7.x-1.x"
+projects[agency_units][subdir] = "contrib"
+
 
 ; +++++ Modules +++++
 
