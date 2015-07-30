@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAAA,UAAW;EACT,SAAS,EAAE,IAAI;;;ACChB,4DAAkC;EAChC,OAAO,EAAE,IAAI;AAEf,8EAAoD;EACnD,OAAO,EAAE,IAAI;AAEd,+DAAqC;EACpC,OAAO,EAAE,IAAI",
-"sources": ["../agency-sass/base/_media.scss","../agency-sass/components/_pane-homepage_search_form.scss"],
-"names": [],
-"file": "agency_bootstrap.no-query.css"
-}
