@@ -40,115 +40,115 @@ projects[rooms_views][subdir] = "contrib"
 
 projects[agency_availability_button][type] = module
 projects[agency_availability_button][download][type] = "git"
-projects[agency_availability_button][download][url] = "https://github.com:Roomify/agency_availability_button.git"
+projects[agency_availability_button][download][url] = "https://github.com/Roomify/agency_availability_button.git"
 projects[agency_availability_button][branch] = "7.x-1.x"
 projects[agency_availability_button][subdir] = "contrib"
 
 projects[agency_blog][type] = module
 projects[agency_blog][download][type] = "git"
-projects[agency_blog][download][url] = "https://github.com:Roomify/agency_blog.git"
+projects[agency_blog][download][url] = "https://github.com/Roomify/agency_blog.git"
 projects[agency_blog][branch] = "7.x-1.x"
 projects[agency_blog][subdir] = "contrib"
 
 projects[agency_contact_form][type] = module
 projects[agency_contact_form][download][type] = "git"
-projects[agency_contact_form][download][url] = "https://github.com:Roomify/agency_contact_form.git"
+projects[agency_contact_form][download][url] = "https://github.com/Roomify/agency_contact_form.git"
 projects[agency_contact_form][branch] = "7.x-1.x"
 projects[agency_contact_form][subdir] = "contrib"
 
 projects[agency_editor][type] = module
 projects[agency_editor][download][type] = "git"
-projects[agency_editor][download][url] = "https://github.com:Roomify/agency_editor.git"
+projects[agency_editor][download][url] = "https://github.com/Roomify/agency_editor.git"
 projects[agency_editor][branch] = "7.x-1.x"
 projects[agency_editor][subdir] = "contrib"
 
 projects[agency_features_views][type] = module
 projects[agency_features_views][download][type] = "git"
-projects[agency_features_views][download][url] = "https://github.com:Roomify/agency_features_views.git"
+projects[agency_features_views][download][url] = "https://github.com/Roomify/agency_features_views.git"
 projects[agency_features_views][branch] = "7.x-1.x"
 projects[agency_features_views][subdir] = "contrib"
 
 projects[agency_homepage][type] = module
 projects[agency_homepage][download][type] = "git"
-projects[agency_homepage][download][url] = "https://github.com:Roomify/agency_homepage.git"
+projects[agency_homepage][download][url] = "https://github.com/Roomify/agency_homepage.git"
 projects[agency_homepage][branch] = "7.x-1.x"
 projects[agency_homepage][subdir] = "contrib"
 
 projects[agency_image_styles][type] = module
 projects[agency_image_styles][download][type] = "git"
-projects[agency_image_styles][download][url] = "https://github.com:Roomify/agency_image_styles.git"
+projects[agency_image_styles][download][url] = "https://github.com/Roomify/agency_image_styles.git"
 projects[agency_image_styles][branch] = "7.x-1.x"
 projects[agency_image_styles][subdir] = "contrib"
 
 projects[agency_location][type] = module
 projects[agency_location][download][type] = "git"
-projects[agency_location][download][url] = "https://github.com:Roomify/agency_location.git"
+projects[agency_location][download][url] = "https://github.com/Roomify/agency_location.git"
 projects[agency_location][branch] = "7.x-1.x"
 projects[agency_location][subdir] = "contrib"
 
 projects[agency_mailchimp][type] = module
 projects[agency_mailchimp][download][type] = "git"
-projects[agency_mailchimp][download][url] = "https://github.com:Roomify/agency_mailchimp.git"
+projects[agency_mailchimp][download][url] = "https://github.com/Roomify/agency_mailchimp.git"
 projects[agency_mailchimp][branch] = "7.x-1.x"
 projects[agency_mailchimp][subdir] = "contrib"
 
 projects[agency_page][type] = module
 projects[agency_page][download][type] = "git"
-projects[agency_page][download][url] = "https://github.com:Roomify/agency_page.git"
+projects[agency_page][download][url] = "https://github.com/Roomify/agency_page.git"
 projects[agency_page][branch] = "7.x-1.x"
 projects[agency_page][subdir] = "contrib"
 
 projects[agency_property_map][type] = module
 projects[agency_property_map][download][type] = "git"
-projects[agency_property_map][download][url] = "https://github.com:Roomify/agency_property_map.git"
+projects[agency_property_map][download][url] = "https://github.com/Roomify/agency_property_map.git"
 projects[agency_property_map][branch] = "7.x-1.x"
 projects[agency_property_map][subdir] = "contrib"
 
 projects[agency_property_page_view][type] = module
 projects[agency_property_page_view][download][type] = "git"
-projects[agency_property_page_view][download][url] = "https://github.com:Roomify/agency_property_page_view.git"
+projects[agency_property_page_view][download][url] = "https://github.com/Roomify/agency_property_page_view.git"
 projects[agency_property_page_view][branch] = "7.x-1.x"
 projects[agency_property_page_view][subdir] = "contrib"
 
 projects[agency_review][type] = module
 projects[agency_review][download][type] = "git"
-projects[agency_review][download][url] = "https://github.com:Roomify/agency_review.git"
+projects[agency_review][download][url] = "https://github.com/Roomify/agency_review.git"
 projects[agency_review][branch] = "7.x-1.x"
 projects[agency_review][subdir] = "contrib"
 
 projects[agency_social_settings][type] = module
 projects[agency_social_settings][download][type] = "git"
-projects[agency_social_settings][download][url] = "https://github.com:Roomify/agency_social_settings.git"
+projects[agency_social_settings][download][url] = "https://github.com/Roomify/agency_social_settings.git"
 projects[agency_social_settings][branch] = "7.x-1.x"
 projects[agency_social_settings][subdir] = "contrib"
 
 projects[agency_system][type] = module
 projects[agency_system][download][type] = "git"
-projects[agency_system][download][url] = "https://github.com:Roomify/agency_system.git"
+projects[agency_system][download][url] = "https://github.com/Roomify/agency_system.git"
 projects[agency_system][branch] = "7.x-1.x"
 projects[agency_system][subdir] = "contrib"
 
 projects[agency_theme][type] = module
 projects[agency_theme][download][type] = "git"
-projects[agency_theme][download][url] = "https://github.com:Roomify/agency_theme.git"
+projects[agency_theme][download][url] = "https://github.com/Roomify/agency_theme.git"
 projects[agency_theme][branch] = "7.x-1.x"
 projects[agency_theme][subdir] = "contrib"
 
 projects[agency_units][type] = module
 projects[agency_units][download][type] = "git"
-projects[agency_units][download][url] = "https://github.com:Roomify/agency_units.git"
+projects[agency_units][download][url] = "https://github.com/Roomify/agency_units.git"
 projects[agency_units][branch] = "7.x-1.x"
 projects[agency_units][subdir] = "contrib"
 
 projects[agency_users][type] = module
 projects[agency_users][download][type] = "git"
-projects[agency_users][download][url] = "https://github.com:Roomify/agency_users.git"
+projects[agency_users][download][url] = "https://github.com/Roomify/agency_users.git"
 projects[agency_users][branch] = "7.x-1.x"
 projects[agency_users][subdir] = "contrib"
 
 projects[pet_to_users_role][type] = module
 projects[pet_to_users_role][download][type] = "git"
-projects[pet_to_users_role][download][url] = "https://github.com:Roomify/pet_to_users_role.git"
+projects[pet_to_users_role][download][url] = "https://github.com/Roomify/pet_to_users_role.git"
 projects[pet_to_users_role][branch] = "7.x-1.x"
 projects[pet_to_users_role][subdir] = "contrib"
 
@@ -156,7 +156,7 @@ projects[pet_to_users_role][subdir] = "contrib"
 
 projects[agency_bootstrap_less][type] = theme
 projects[agency_bootstrap_less][download][type] = "git"
-projects[agency_bootstrap_less][download][url] = "https://github.com:Roomify/agency_bootstrap_less.git"
+projects[agency_bootstrap_less][download][url] = "https://github.com/Roomify/agency_bootstrap_less.git"
 projects[agency_bootstrap_less][branch] = "7.x-1.x"
 projects[agency_bootstrap_less][subdir] = "contrib"
 
