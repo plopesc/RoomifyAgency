@@ -399,16 +399,6 @@ projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.x-dev"
 projects[bootstrap][subdir] = "contrib"
 
-; omega
-projects[omega][type] = "theme"
-projects[omega][version] = "3.1"
-projects[omega][subdir] = "contrib"
-
-; omega_kickstart
-projects[omega_kickstart][type] = "theme"
-projects[omega_kickstart][version] = "3.4"
-projects[omega_kickstart][subdir] = "contrib"
-
 ; shiny
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.6"
