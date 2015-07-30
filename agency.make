@@ -154,7 +154,7 @@ projects[pet_to_users_role][subdir] = "contrib"
 
 ; +++++ Agency Themes +++++
 
-projects[agency_bootstrap_less][type] = module
+projects[agency_bootstrap_less][type] = theme
 projects[agency_bootstrap_less][download][type] = "git"
 projects[agency_bootstrap_less][download][url] = "git@github.com:Roomify/agency_bootstrap_less.git"
 projects[agency_bootstrap_less][branch] = "7.x-1.x"
