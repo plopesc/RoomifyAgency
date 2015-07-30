@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Agency property page view feature.
- */
-
-include_once 'agency_property_page_view.features.inc';
