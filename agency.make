@@ -2,7 +2,8 @@
 core = "7.x"
 api = "2"
 
-; Rooms Modules
+
+; Agency Modules
 projects[rooms][version] = "1.7"
 projects[rooms][subdir] = "contrib"
 
@@ -151,8 +152,18 @@ projects[pet_to_users_role][download][url] = "git@github.com:Roomify/pet_to_user
 projects[pet_to_users_role][branch] = "7.x-1.x"
 projects[pet_to_users_role][subdir] = "contrib"
 
+; +++++ Agency Themes +++++
 
-; +++++ Modules +++++
+projects[agency_bootstrap_less][type] = module
+projects[agency_bootstrap_less][download][type] = "git"
+projects[agency_bootstrap_less][download][url] = "git@github.com:Roomify/agency_bootstrap_less.git"
+projects[agency_bootstrap_less][branch] = "7.x-1.x"
+projects[agency_bootstrap_less][subdir] = "contrib"
+
+
+
+
+; +++++ Contrib Modules +++++
 
 projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
