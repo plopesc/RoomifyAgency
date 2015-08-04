@@ -1,0 +1,4 @@
+# Ignore stuff that gets downloaded with drush make
+modules/*
+libraries/*
+themes/*
