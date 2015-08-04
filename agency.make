@@ -295,9 +295,6 @@ projects[logintoboggan][subdir] = "contrib"
 projects[mailchimp][version] = "3.4"
 projects[mailchimp][subdir] = "contrib"
 
-projects[manualcrop][version] = "1.4"
-projects[manualcrop][subdir] = "contrib"
-
 projects[masonry][version] = "3.0-beta1"
 projects[masonry][subdir] = "contrib"
 
