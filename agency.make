@@ -247,6 +247,10 @@ projects[filefield_sources_plupload][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 
+projects[epsacrop][type] = module
+projects[epsacrop][version] = "2.x-dev"
+projects[epsacrop][subdir] = "contrib"
+
 projects[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
@@ -436,6 +440,21 @@ libraries[imagesloaded][type] = "library"
 libraries[imagesloaded][destination] = "libraries"
 libraries[imagesloaded][download][type] = "get"
 libraries[imagesloaded][download][url] = "http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"
+
+; jcrop
+libraries[Jcrop][download][type] = "file"
+libraries[Jcrop][download][url] = "http://github.com/tapmodo/Jcrop/archive/v0.9.12.zip"
+libraries[Jcrop][directory_name] = "Jcrop"
+libraries[Jcrop][type] = "library"
+libraries[Jcrop][destination] = "libraries"
+
+
+; json2
+libraries[json2][download][type] = "file"
+libraries[json2][download][url] = "http://github.com/douglascrockford/JSON-js/archive/master.zip"
+libraries[json2][directory_name] = "json2"
+libraries[json2][type] = "library"
+libraries[json2][destination] = "libraries"
 
 ; leaflet
 libraries[leaflet][directory_name] = "leaflet"
