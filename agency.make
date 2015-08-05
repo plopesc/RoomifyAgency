@@ -307,6 +307,9 @@ projects[masonry_views][subdir] = "contrib"
 projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
 
+projects[module_filter][version] = "2.0"
+projects[module_filter][subdir] = "contrib"
+
 projects[navbar][version] = "1.5"
 projects[navbar][subdir] = "contrib"
 
