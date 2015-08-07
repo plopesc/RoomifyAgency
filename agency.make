@@ -524,8 +524,9 @@ libraries[plupload][patch][] = "https://www.drupal.org/files/issues/plupload-1_5
 libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
 libraries[rooms_fullcalendar][type] = "library"
 libraries[rooms_fullcalendar][destination] = "libraries"
-libraries[rooms_fullcalendar][download][type] = "get"
-libraries[rooms_fullcalendar][download][url] = "http://www.drupalrooms.com/sites/default/files/rooms_fullcalendar-2.1.1.zip"
+libraries[rooms_fullcalendar][download][type] = "git"
+libraries[rooms_fullcalendar][download][branch] = master
+libraries[rooms_fullcalendar][download][url] = "https://github.com/Roomify/fullcalendar"
 
 ; rrssb
 libraries[rrssb][directory_name] = "rrssb"
