@@ -84,6 +84,7 @@ dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
 dependencies[] = less
 dependencies[] = libraries
+dependencies[] = menu_admin_per_menu
 dependencies[] = navbar
 dependencies[] = pet
 dependencies[] = publishcontent

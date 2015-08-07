@@ -304,6 +304,10 @@ projects[masonry][subdir] = "contrib"
 projects[masonry_views][version] = "3.0-beta1"
 projects[masonry_views][subdir] = "contrib"
 
+projects[menu_admin_per_menu][version] = "1.0"
+projects[menu_admin_per_menu][subdir] = "contrib"
+projects[menu_admin_per_menu][patch][] = "https://www.drupal.org/files/issues/integrate-menu-translation-suport-2546214-1.patch"
+
 projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
 
