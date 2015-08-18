@@ -152,6 +152,12 @@ projects[pet_to_users_role][download][url] = "https://github.com/Roomify/pet_to_
 projects[pet_to_users_role][branch] = "7.x-1.x"
 projects[pet_to_users_role][subdir] = "contrib"
 
+projects[roomify_private_messages][type] = module
+projects[roomify_private_messages][download][type] = "git"
+projects[roomify_private_messages][download][url] = "https://github.com/Roomify/roomify_private_messages.git"
+projects[roomify_private_messages][branch] = "7.x-1.x"
+projects[roomify_private_messages][subdir] = "contrib"
+
 ; +++++ Agency Themes +++++
 
 projects[agency_bootstrap_less][type] = theme
