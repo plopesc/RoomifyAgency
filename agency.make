@@ -360,6 +360,9 @@ projects[profiler_builder][subdir] = "contrib"
 projects[publishcontent][version] = "1.3"
 projects[publishcontent][subdir] = "contrib"
 
+projects[reply][version] = "2.x-dev"
+projects[reply][subdir] = "contrib"
+
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
