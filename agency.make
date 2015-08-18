@@ -241,7 +241,7 @@ projects[flag][subdir] = "contrib"
 projects[fivestar][version] = "2.1"
 projects[fivestar][subdir] = "contrib"
 
-projects[filefield_sources][version] = "1.9"
+projects[filefield_sources][version] = "1.10"
 projects[filefield_sources][subdir] = "contrib"
 
 projects[filefield_sources_plupload][version] = "1.1"
