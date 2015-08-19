@@ -137,4 +137,5 @@ dependencies[] = agency_blog
 dependencies[] = agency_review
 dependencies[] = agency_social_settings
 dependencies[] = agency_contact_form
+dependencies[] = agency_booking_manager
 dependencies[] = pet_to_users_role

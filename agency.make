@@ -158,6 +158,13 @@ projects[roomify_private_messages][download][url] = "https://github.com/Roomify/
 projects[roomify_private_messages][branch] = "7.x-1.x"
 projects[roomify_private_messages][subdir] = "contrib"
 
+projects[agency_booking_manager][type] = module
+projects[agency_booking_manager][download][type] = "git"
+projects[agency_booking_manager][download][url] = "https://github.com/Roomify/agency_booking_manager.git"
+projects[agency_booking_manager][branch] = "7.x-1.x"
+projects[agency_booking_manager][subdir] = "contrib"
+
+
 ; +++++ Agency Themes +++++
 
 projects[agency_bootstrap_less][type] = theme
