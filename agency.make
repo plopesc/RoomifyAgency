@@ -455,12 +455,12 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 
 ; ckeditor with plugins for asset module
 ; To update the link, go to http://ckeditor.com/builder and select the
-; Standard build of version 4 with the flat skin and all languages. (optimized version)
+; Standard build of version 4 with the iFrame dialog field plugin, flat skin and all languages. (optimized version)
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.3/flat/0.9/ckeditor_4.5.3_a2294574b7ad.zip"
+libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.3/flat/0.9/ckeditor_4.5.3_684d97fe8935.zip"
 
 ; imagesloaded
 libraries[imagesloaded][directory_name] = "imagesloaded"
