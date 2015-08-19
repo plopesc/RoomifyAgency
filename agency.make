@@ -454,11 +454,13 @@ libraries[chosen][download][type] = "get"
 libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.4.2/chosen_v1.4.2.zip"
 
 ; ckeditor with plugins for asset module
+; To update the link, go to http://ckeditor.com/builder and select the
+; Standard build of version 4 with the flat skin and all languages. (optimized version)
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.1/flat/0.9/ckeditor_4.5.1_991f0249c798.zip"
+libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.3/flat/0.9/ckeditor_4.5.3_a2294574b7ad.zip"
 
 ; imagesloaded
 libraries[imagesloaded][directory_name] = "imagesloaded"
