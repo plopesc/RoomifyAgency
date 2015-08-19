@@ -416,6 +416,9 @@ projects[views_nivo_slider][subdir] = "contrib"
 projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
 
+projects[webform][version] = "4"
+projects[webform][subdir] = "contrib"
+
 projects[xautoload][version] = "5.2"
 projects[xautoload][subdir] = "contrib"
 
