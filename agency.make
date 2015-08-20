@@ -200,7 +200,7 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
 
-projects[composer_manager][version] = "1.7"
+projects[composer_manager][version] = "1.x-dev"
 projects[composer_manager][subdir] = "contrib"
 
 projects[content_menu][version] = "1.0"
