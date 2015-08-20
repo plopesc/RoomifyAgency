@@ -262,6 +262,7 @@ projects[filefield_sources_plupload][subdir] = "contrib"
 
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
+projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-1836106-20.patch"
 
 projects[epsacrop][type] = module
 projects[epsacrop][version] = "2.x-dev"
