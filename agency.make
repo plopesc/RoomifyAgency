@@ -289,6 +289,9 @@ projects[google_analytics][subdir] = "contrib"
 projects[jquery_update][version] = "2.6"
 projects[jquery_update][subdir] = "contrib"
 
+projects[icon][version] = "1.0-beta6"
+projects[icon][subdir] = "contrib"
+
 projects[leaflet][version] = "1.1"
 projects[leaflet][subdir] = "patched"
 ; https://www.drupal.org/node/2466365
