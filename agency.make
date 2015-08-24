@@ -38,6 +38,12 @@ projects[rooms_views][download][branch] = "group_size_filter"
 projects[rooms_views][directory_name] = "rooms_views"
 projects[rooms_views][subdir] = "contrib"
 
+projects[agency_amenities][type] = module
+projects[agency_amenities][download][type] = "git"
+projects[agency_amenities][download][url] = "https://github.com/Roomify/agency_amenities.git"
+projects[agency_amenities][branch] = "master"
+projects[agency_amenities][subdir] = "contrib"
+
 projects[agency_availability_button][type] = module
 projects[agency_availability_button][download][type] = "git"
 projects[agency_availability_button][download][url] = "https://github.com/Roomify/agency_availability_button.git"

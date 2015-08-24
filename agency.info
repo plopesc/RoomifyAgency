@@ -79,6 +79,7 @@ dependencies[] = entity_token
 dependencies[] = entityform
 dependencies[] = environment_indicator
 dependencies[] = geophp
+dependencies[] = icon
 dependencies[] = leaflet
 dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
@@ -121,6 +122,7 @@ dependencies[] = views_php
 dependencies[] = views_ui
 ; Features
 dependencies[] = features
+dependencies[] = agency_amenities
 dependencies[] = agency_homepage
 dependencies[] = agency_location
 dependencies[] = agency_units
