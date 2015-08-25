@@ -124,6 +124,7 @@ function agency_install() {
 
   // Revert features to ensure they are all installed.
   $features = array(
+    'agency_amenities',
     'agency_homepage',
     'agency_location',
     'agency_units',
@@ -136,8 +137,12 @@ function agency_install() {
     'agency_property_page_view',
     'agency_editor',
     'agency_blog',
+    'agency_review',
   );
   features_revert($features);
+
+  //Creates amenities terms
+  create_agency_amenities_terms();
 
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
