@@ -360,6 +360,10 @@ projects[panels_tabs][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
+projects[pathauto][patch][] = "https://www.drupal.org/files/issues/1267966-238.patch"
+
+projects[pathauto_entity][version] = "1.0"
+projects[pathauto_entity][subdir] = "contrib"
 
 projects[pet][type] = module
 projects[pet][version] = 1.0-rc1
