@@ -206,6 +206,9 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
 
+projects[commerce_checkout_progress][version] = "1.3"
+projects[commerce_checkout_progress][subdir] = "contrib"
+
 projects[composer_manager][version] = "1.x-dev"
 projects[composer_manager][subdir] = "contrib"
 

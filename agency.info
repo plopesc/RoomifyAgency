@@ -17,6 +17,7 @@ dependencies[] = views_content
 dependencies[] = commerce
 dependencies[] = commerce_cart
 dependencies[] = commerce_checkout
+dependencies[] = commerce_checkout_progress
 dependencies[] = commerce_customer
 dependencies[] = commerce_customer_ui
 dependencies[] = commerce_line_item
