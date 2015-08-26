@@ -4,7 +4,10 @@ api = "2"
 
 
 ; Agency Modules
-projects[rooms][version] = "1.7"
+projects[rooms][version] = "1.x-dev"
+projects[rooms][download][type] = "git"
+projects[rooms][download][url] = "https://github.com/Roomify/rooms"
+projects[rooms][download][branch] = "7.x-1.x"
 projects[rooms][subdir] = "contrib"
 
 projects[rooms_availability_reference_modal][type] = module
