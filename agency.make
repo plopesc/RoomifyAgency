@@ -230,7 +230,7 @@ projects[composer_manager][subdir] = "contrib"
 projects[content_menu][version] = "1.0"
 projects[content_menu][subdir] = "contrib"
 
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
 projects[date][version] = "2.8"
