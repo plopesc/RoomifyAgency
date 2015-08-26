@@ -119,6 +119,12 @@ projects[agency_property_page_view][download][url] = "https://github.com/Roomify
 projects[agency_property_page_view][branch] = "7.x-1.x"
 projects[agency_property_page_view][subdir] = "contrib"
 
+projects[agency_reports][type] = module
+projects[agency_reports][download][type] = "git"
+projects[agency_reports][download][url] = "https://github.com/Roomify/agency_reports.git"
+projects[agency_reports][branch] = "7.x-1.x"
+projects[agency_reports][subdir] = "contrib"
+
 projects[agency_review][type] = module
 projects[agency_review][download][type] = "git"
 projects[agency_review][download][url] = "https://github.com/Roomify/agency_review.git"
