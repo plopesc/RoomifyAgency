@@ -31,6 +31,7 @@ dependencies[] = commerce_product_ui
 dependencies[] = commerce_ui
 ; Commerce (contrib)
 dependencies[] = commerce_cart_expiration
+dependencies[] = commerce_reports
 ; Core
 dependencies[] = block
 dependencies[] = color

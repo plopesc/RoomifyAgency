@@ -197,6 +197,9 @@ projects[asset][patch][] = "https://www.drupal.org/files/issues/ckeditor-4.3.1-a
 projects[bean][version] = "1.9"
 projects[bean][subdir] = "contrib"
 
+projects[charts][version] = "2.0-rc1"
+projects[charts][subdir] = "contrib"
+
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
 
@@ -208,6 +211,9 @@ projects[commerce][subdir] = "contrib"
 
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
+
+projects[commerce_reports][version] = "4.0-beta2"
+projects[commerce_reports][subdir] = "contrib"
 
 projects[commerce_checkout_progress][version] = "1.3"
 projects[commerce_checkout_progress][subdir] = "contrib"
@@ -423,6 +429,9 @@ projects[views][subdir] = "contrib"
 
 projects[views_bootstrap][version] = "3.1"
 projects[views_bootstrap][subdir] = "contrib"
+
+projects[views_date_format_sql][version] = "3.1"
+projects[views_date_format_sql][subdir] = "contrib"
 
 projects[views_load_more][version] = "1.5"
 projects[views_load_more][subdir] = "contrib"
