@@ -77,6 +77,12 @@ projects[agency_features_views][download][url] = "https://github.com/Roomify/age
 projects[agency_features_views][branch] = "7.x-1.x"
 projects[agency_features_views][subdir] = "contrib"
 
+projects[agency_global_addons][type] = module
+projects[agency_global_addons][download][type] = "git"
+projects[agency_global_addons][download][url] = "https://github.com/Roomify/agency_global_addons.git"
+projects[agency_global_addons][branch] = "master"
+projects[agency_global_addons][subdir] = "contrib"
+
 projects[agency_homepage][type] = module
 projects[agency_homepage][download][type] = "git"
 projects[agency_homepage][download][url] = "https://github.com/Roomify/agency_homepage.git"
@@ -217,6 +223,9 @@ projects[commerce][subdir] = "contrib"
 
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
+
+projects[commerce_features][version] = "1.1"
+projects[commerce_features][subdir] = "contrib"
 
 projects[commerce_reports][version] = "4.0-beta2"
 projects[commerce_reports][subdir] = "contrib"
