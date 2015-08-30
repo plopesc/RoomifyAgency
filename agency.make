@@ -405,6 +405,9 @@ projects[pm_existing_pages][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
+projects[profile2][version] = "1.3"
+projects[profile2][subdir] = "contrib"
+
 projects[publishcontent][version] = "1.3"
 projects[publishcontent][subdir] = "contrib"
 
