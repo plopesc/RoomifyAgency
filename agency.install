@@ -141,12 +141,27 @@ function agency_install() {
   );
   features_revert($features);
 
-  //Creates amenities terms
+  // Creates amenities terms
   create_agency_amenities_terms();
+
+  // Creates Property Type terms
+  create_agency_property_type_terms();
 
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
 
   // Ignore any other install messages.
   drupal_get_messages();
+}
+
+/* Create Property Types terms */
+function create_agency_property_type_terms() {
+ $property_type = array('Apartment', 'Shared Space', 'Villa');
+  foreach ($property_type as $type) {
+    $vocabulary = taxonomy_vocabulary_machine_name_load('property_type');
+    $term = new stdClass();
+    $term->name = $type;
+    $term->vid = $vocabulary->vid;
+    taxonomy_term_save($term);
+  }
 }
