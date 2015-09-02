@@ -430,6 +430,9 @@ projects[search_api][subdir] = "contrib"
 projects[search_api_db][version] = "1.4"
 projects[search_api_db][subdir] = "contrib"
 
+projects[session_api][version] = "1.0-rc1"
+projects[session_api] = "contrib"
+
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
