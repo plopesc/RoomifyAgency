@@ -260,6 +260,9 @@ projects[entity2text][subdir] = "contrib"
 projects[entityform][version] = "2.0-rc1"
 projects[entityform][subdir] = "contrib"
 
+projects[entityform_block][version] = "1.3"
+projects[entityform_block][subdir] = "contrib"
+
 projects[entityreference_prepopulate][version] = "1.5"
 projects[entityreference_prepopulate][subdir] = "contrib"
 

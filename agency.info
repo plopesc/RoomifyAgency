@@ -80,6 +80,7 @@ dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = entityform
+dependencies[] = entityform_block
 dependencies[] = environment_indicator
 dependencies[] = geophp
 dependencies[] = icon
