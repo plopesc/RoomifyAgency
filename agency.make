@@ -173,12 +173,6 @@ projects[pet_to_users_role][download][url] = "https://github.com/Roomify/pet_to_
 projects[pet_to_users_role][branch] = "7.x-1.x"
 projects[pet_to_users_role][subdir] = "contrib"
 
-projects[roomify_private_messages][type] = module
-projects[roomify_private_messages][download][type] = "git"
-projects[roomify_private_messages][download][url] = "https://github.com/Roomify/roomify_private_messages.git"
-projects[roomify_private_messages][branch] = "7.x-1.x"
-projects[roomify_private_messages][subdir] = "contrib"
-
 projects[agency_booking_manager][type] = module
 projects[agency_booking_manager][download][type] = "git"
 projects[agency_booking_manager][download][url] = "https://github.com/Roomify/agency_booking_manager.git"
@@ -410,9 +404,6 @@ projects[profile2][subdir] = "contrib"
 
 projects[publishcontent][version] = "1.3"
 projects[publishcontent][subdir] = "contrib"
-
-projects[reply][version] = "2.x-dev"
-projects[reply][subdir] = "contrib"
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
