@@ -251,6 +251,9 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
+projects[entitycache][version] = "1.2"
+projects[entitycache][subdir] = "contrib"
+
 projects[entity_rules][version] = "1.0-alpha4"
 projects[entity_rules][subdir] = "contrib"
 
@@ -271,6 +274,9 @@ projects[environment_indicator][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
+
+projects[fast_404][version] = "1.5"
+projects[fast_404][subdir] = "contrib"
 
 projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
