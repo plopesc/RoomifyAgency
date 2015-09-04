@@ -200,6 +200,9 @@ projects[asset][version] = "1.x-dev"
 projects[asset][subdir] = "patched"
 projects[asset][patch][] = "https://www.drupal.org/files/issues/ckeditor-4.3.1-asset-plugin-2419057-3.patch"
 
+projects[autocomplete_deluxe][version] = "2"
+projects[autocomplete_deluxe][subdir] = "contrib"
+
 projects[bean][version] = "1.9"
 projects[bean][subdir] = "contrib"
 
