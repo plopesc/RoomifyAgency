@@ -81,6 +81,7 @@ dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = entityform
 dependencies[] = entityform_block
+dependencies[] = entityform_notifications
 dependencies[] = environment_indicator
 dependencies[] = geophp
 dependencies[] = icon
