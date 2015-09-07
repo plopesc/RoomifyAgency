@@ -126,7 +126,6 @@ function agency_install() {
   $features = array(
     'agency_amenities',
     'agency_homepage',
-    'agency_location',
     'agency_units',
     'agency_users',
     'agency_system',
@@ -140,6 +139,9 @@ function agency_install() {
     'agency_review',
   );
   features_revert($features);
+
+  // Remove the "Unit Description" content type.
+  node_type_delete('unit_description');
 
   // Creates amenities terms
   create_agency_amenities_terms();

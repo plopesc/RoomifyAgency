@@ -134,7 +134,6 @@ dependencies[] = views_ui
 dependencies[] = features
 dependencies[] = agency_amenities
 dependencies[] = agency_homepage
-dependencies[] = agency_location
 dependencies[] = agency_units
 dependencies[] = agency_users
 dependencies[] = agency_page
