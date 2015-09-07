@@ -268,6 +268,7 @@ projects[entityform][subdir] = "contrib"
 
 projects[entityform_block][version] = "1.3"
 projects[entityform_block][subdir] = "contrib"
+projects[entityform_block][patch][] = "https://www.drupal.org/files/issues/entityform_block-hook_entity_type_delete-exception-2487898-13.patch"
 
 projects[entityreference_prepopulate][version] = "1.5"
 projects[entityreference_prepopulate][subdir] = "contrib"
