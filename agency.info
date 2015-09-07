@@ -104,6 +104,7 @@ dependencies[] = token
 dependencies[] = panels
 ; Roomify
 dependencies[] = rooms_availability_reference_modal
+dependencies[] = roomify_conversations
 ; Rooms
 dependencies[] = rooms
 dependencies[] = rooms_availability
