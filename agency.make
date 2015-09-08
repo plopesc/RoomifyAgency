@@ -367,6 +367,7 @@ projects[menu_admin_per_menu][patch][] = "https://www.drupal.org/files/issues/in
 
 projects[message][version] = "1.10"
 projects[message][subdir] = "contrib"
+projects[message][patch][] = "https://www.drupal.org/files/issues/text-sanitized.patch"
 
 projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
