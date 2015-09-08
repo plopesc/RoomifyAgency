@@ -482,6 +482,14 @@ projects[xautoload][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
 projects[xmlsitemap][subdir] = "contrib"
 
+
+projects[asset][version] = "1.x-dev"
+projects[asset][subdir] = "patched"
+projects[asset][patch][] = "https://www.drupal.org/files/issues/ckeditor-4.3.1-asset-plugin-2419057-3.patch"
+
+projects[ckeditor][version] = "1.16"
+projects[ckeditor][subdir] = "contrib"
+
 ; +++++ Themes +++++
 
 ; bootstrap
