@@ -195,10 +195,6 @@ projects[agency_bootstrap_less][subdir] = "contrib"
 projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
-projects[asset][version] = "1.x-dev"
-projects[asset][subdir] = "patched"
-projects[asset][patch][] = "https://www.drupal.org/files/issues/ckeditor-4.3.1-asset-plugin-2419057-3.patch"
-
 projects[autocomplete_deluxe][version] = "2"
 projects[autocomplete_deluxe][subdir] = "contrib"
 
@@ -210,9 +206,6 @@ projects[charts][subdir] = "contrib"
 
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
-
-projects[ckeditor][version] = "1.16"
-projects[ckeditor][subdir] = "contrib"
 
 projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "contrib"
@@ -307,6 +300,9 @@ projects[epsacrop][type] = module
 projects[epsacrop][version] = "2.x-dev"
 projects[epsacrop][subdir] = "contrib"
 
+projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][subdir] = "contrib"
+
 projects[fontyourface][version] = "2.8"
 projects[fontyourface][subdir] = "contrib"
 
@@ -360,6 +356,9 @@ projects[masonry][subdir] = "contrib"
 
 projects[masonry_views][version] = "3.0-beta1"
 projects[masonry_views][subdir] = "contrib"
+
+projects[media][version] = "2.0-beta1"
+projects[media][subdir] = "contrib"
 
 projects[menu_admin_per_menu][version] = "1.0"
 projects[menu_admin_per_menu][subdir] = "contrib"
@@ -473,6 +472,9 @@ projects[views_nivo_slider][subdir] = "contrib"
 
 projects[votingapi][version] = "2.12"
 projects[votingapi][subdir] = "contrib"
+
+projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][subdir] = "contrib"
 
 projects[xautoload][version] = "5.2"
 projects[xautoload][subdir] = "contrib"

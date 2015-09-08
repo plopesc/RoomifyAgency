@@ -75,7 +75,6 @@ dependencies[] = entityreference_prepopulate
 ; Location
 dependencies[] = getdirections
 ; Other
-dependencies[] = ckeditor
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entitycache
