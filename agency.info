@@ -104,6 +104,7 @@ dependencies[] = panels
 ; Roomify
 dependencies[] = rooms_availability_reference_modal
 dependencies[] = roomify_conversations
+dependencies[] = roomify_booking_views
 ; Rooms
 dependencies[] = rooms
 dependencies[] = rooms_availability
