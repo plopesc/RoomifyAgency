@@ -149,6 +149,11 @@ function agency_install() {
   // Creates Property Type terms
   create_agency_property_type_terms();
 
+  // Disable Commerce User Orders view.
+  $status = variable_get('views_defaults', array());
+  $status['commerce_user_orders'] = TRUE;
+  variable_set('views_defaults', $status);
+
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
 
