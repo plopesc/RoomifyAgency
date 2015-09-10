@@ -157,6 +157,9 @@ function agency_install() {
   // Set JPEG quality to 100%
   variable_set('image_jpeg_quality', '100');
 
+  // Media upload shouldn’t give public/private file choice.
+  variable_set('file_entity_file_upload_wizard_skip_scheme', TRUE);
+
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
 
