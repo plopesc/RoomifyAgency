@@ -149,6 +149,12 @@ function agency_install() {
   // Creates Property Type terms
   create_agency_property_type_terms();
 
+  // Create Footer example text.
+  agency_create_footer_bean();
+  variable_set('agency_social_facebook', 'https://www.facebook.com/roomifyus');
+  variable_set('agency_social_twitter', 'https://twitter.com/roomifyus');
+
+
   // Disable Commerce User Orders view.
   $status = variable_get('views_defaults', array());
   $status['commerce_user_orders'] = TRUE;
@@ -180,4 +186,18 @@ function create_agency_property_type_terms() {
     $term->vid = $vocabulary->vid;
     taxonomy_term_save($term);
   }
+}
+
+/* Generates Agency footer bean. */
+function agency_create_footer_bean() {
+  $bean = bean_create(array('type' => 'footer'));
+  $bean->label = 'Footer';
+  $bean->delta = 'bean-footer';
+  $bean->field_footer_text = array(
+    'und' => array(array(
+      'value' => '<p>Click <a href="/block/bean-footer/edit?destination=admin/content/blocks">here</a> to edit footer.</p>',
+      'format' => 'filtered_text',
+    )),
+  );
+  $bean->save();
 }
