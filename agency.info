@@ -97,10 +97,14 @@ dependencies[] = pathauto
 dependencies[] = pet
 dependencies[] = publishcontent
 dependencies[] = rrssb
+dependencies[] = slick
+dependencies[] = slick_ui
+dependencies[] = slick_views
 dependencies[] = strongarm
 dependencies[] = token
 ; Panels
 dependencies[] = panels
+dependencies[] = panels_mini
 ; Roomify
 dependencies[] = rooms_availability_reference_modal
 dependencies[] = roomify_conversations

@@ -446,6 +446,12 @@ projects[search_api_db][subdir] = "contrib"
 projects[session_api][version] = "1.0-rc1"
 projects[session_api][subdir] = "contrib"
 
+projects[slick][version] = "2.0-rc2"
+projects[slick][subdir] = "contrib"
+
+projects[slick_views][version] = "2.0-rc2"
+projects[slick_views][subdir] = "contrib"
+
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
@@ -618,6 +624,12 @@ libraries[rrssb][type] = "library"
 libraries[rrssb][destination] = "libraries"
 libraries[rrssb][download][type] = "get"
 libraries[rrssb][download][url] = "https://github.com/kni-labs/rrssb/archive/1.8.1.zip"
+
+; slick
+libraries[slick][download][type] = "file"
+libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/1.5.8.zip"
+libraries[slick][directory_name] = "slick"
+libraries[slick][type] = "library"
 
 ; underscore
 libraries[underscore][directory_name] = "underscore"
