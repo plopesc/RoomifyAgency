@@ -246,6 +246,9 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[editablefields][version] = "1.0-alpha2"
+projects[editablefields][subdir] = "contrib"
+
 projects[email][version] = "1.3"
 projects[email][subdir] = "contrib"
 

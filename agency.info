@@ -76,6 +76,7 @@ dependencies[] = entityreference_prepopulate
 dependencies[] = getdirections
 ; Other
 dependencies[] = diff
+dependencies[] = editablefields
 dependencies[] = entity
 dependencies[] = entitycache
 dependencies[] = entity_token
