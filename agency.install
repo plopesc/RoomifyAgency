@@ -160,6 +160,9 @@ function agency_install() {
   // Media upload shouldn’t give public/private file choice.
   variable_set('file_entity_file_upload_wizard_skip_scheme', TRUE);
 
+  // Set E-mail format to Rich Text
+  variable_set('mimemail_format', 'rich_text');
+
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
 
