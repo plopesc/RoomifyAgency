@@ -380,6 +380,9 @@ projects[message][patch][] = "https://www.drupal.org/files/issues/text-sanitized
 projects[metatag][version] = "1.6"
 projects[metatag][subdir] = "contrib"
 
+projects[mimemail][version] = "1.0-beta4"
+projects[mimemail][subdir] = "contrib"
+
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 

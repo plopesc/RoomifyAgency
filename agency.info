@@ -93,6 +93,7 @@ dependencies[] = leaflet_views
 dependencies[] = less
 dependencies[] = libraries
 dependencies[] = menu_admin_per_menu
+dependencies[] = mimemail
 dependencies[] = navbar
 dependencies[] = pathauto
 dependencies[] = pet
