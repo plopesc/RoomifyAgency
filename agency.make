@@ -450,6 +450,10 @@ projects[search_api][subdir] = "contrib"
 projects[search_api_db][version] = "1.4"
 projects[search_api_db][subdir] = "contrib"
 
+projects[search_api_ranges][subdir] = contrib
+projects[search_api_ranges][version] = "1.x-dev"
+projects[search_api_ranges][patch][] = "https://www.drupal.org/files/issues/search_api_ranges-existing-filter-tag-2294807-1.patch"
+
 projects[session_api][version] = "1.0-rc1"
 projects[session_api][subdir] = "contrib"
 

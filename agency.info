@@ -99,6 +99,7 @@ dependencies[] = pathauto
 dependencies[] = pet
 dependencies[] = publishcontent
 dependencies[] = rrssb
+dependencies[] = search_api_ranges
 dependencies[] = slick
 dependencies[] = slick_ui
 dependencies[] = slick_views
