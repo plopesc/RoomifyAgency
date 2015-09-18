@@ -337,10 +337,8 @@ projects[jquery_update][subdir] = "contrib"
 projects[icon][version] = "1.0-beta6"
 projects[icon][subdir] = "contrib"
 
-projects[leaflet][version] = "1.1"
-projects[leaflet][subdir] = "patched"
-; https://www.drupal.org/node/2466365
-projects[leaflet][patch][] = "https://www.drupal.org/files/issues/leaflet-entity_type_not_detected-2466365-1.patch"
+projects[leaflet][version] = "1.x-dev"
+projects[leaflet][subdir] = "contrib"
 
 projects[leaflet_more_maps][version] = "1.12"
 projects[leaflet_more_maps][subdir] = "contrib"
