@@ -36,7 +36,7 @@ mounts:
 hooks:
 
     # We run deploy hook after your application has been deployed and started.
-    deploy: 'cd /app/public/sites/default/files/composer; composer update; cd /app/public ; drush -y updatedb'
+    deploy: 'cd /app/public/sites/default/files/composer; composer update; composer install; cd /app/public ; drush -y updatedb'
 
 # The configuration of scheduled execution.
 crons:
