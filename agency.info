@@ -105,6 +105,7 @@ dependencies[] = slick_ui
 dependencies[] = slick_views
 dependencies[] = strongarm
 dependencies[] = token
+dependencies[] = view_unpublished
 ; Panels
 dependencies[] = panels
 dependencies[] = panels_mini
