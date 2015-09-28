@@ -286,6 +286,9 @@ projects[environment_indicator][subdir] = "contrib"
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 
+projects[facetapi_pretty_paths][version] = "1.4"
+projects[facetapi_pretty_paths][subdir] = "contrib"
+
 projects[fast_404][version] = "1.5"
 projects[fast_404][subdir] = "contrib"
 

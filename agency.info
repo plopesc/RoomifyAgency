@@ -84,6 +84,7 @@ dependencies[] = entityform
 dependencies[] = entityform_block
 dependencies[] = entityform_notifications
 dependencies[] = environment_indicator
+dependencies[] = facetapi_pretty_paths
 dependencies[] = fast_404
 dependencies[] = geophp
 dependencies[] = google_tag
