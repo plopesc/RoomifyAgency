@@ -86,6 +86,7 @@ dependencies[] = entityform_notifications
 dependencies[] = environment_indicator
 dependencies[] = fast_404
 dependencies[] = geophp
+dependencies[] = google_tag
 dependencies[] = icon
 dependencies[] = leaflet
 dependencies[] = leaflet_more_maps

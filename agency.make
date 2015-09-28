@@ -331,6 +331,9 @@ projects[getdirections][subdir] = "contrib"
 projects[google_analytics][version] = "2.1"
 projects[google_analytics][subdir] = "contrib"
 
+projects[google_tag][version] = "1.0"
+projects[google_tag][subdir] = "contrib"
+
 projects[jquery_update][version] = "2.6"
 projects[jquery_update][subdir] = "contrib"
 
