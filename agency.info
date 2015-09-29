@@ -94,6 +94,7 @@ dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
 dependencies[] = less
 dependencies[] = libraries
+dependencies[] = maillog
 dependencies[] = menu_admin_per_menu
 dependencies[] = mimemail
 dependencies[] = navbar

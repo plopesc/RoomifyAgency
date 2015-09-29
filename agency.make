@@ -370,6 +370,9 @@ projects[logintoboggan][subdir] = "contrib"
 projects[mailchimp][version] = "3.4"
 projects[mailchimp][subdir] = "contrib"
 
+projects[maillog][version] = "1.0-alpha1"
+projects[maillog][subdir] = "contrib"
+
 projects[mailsystem][version] = "2.34"
 projects[mailsystem][subdir] = "contrib"
 
