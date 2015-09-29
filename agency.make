@@ -28,11 +28,11 @@ projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomif
 projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
 projects[rooms_commission_rates][subdir] = "contrib"
 
-projects[rooms_faceted_search][type] = module
-projects[rooms_faceted_search][download][type] = "git"
-projects[rooms_faceted_search][download][url] = "https://www.github.com/Roomify/rooms-faceted-search.git"
-projects[rooms_faceted_search][directory_name] = "rooms_faceted_search"
-projects[rooms_faceted_search][subdir] = "contrib"
+projects[roomify_faceted_search][type] = module
+projects[roomify_faceted_search][download][type] = "git"
+projects[roomify_faceted_search][download][url] = "https://github.com/Roomify/roomify_faceted_search.git"
+projects[roomify_faceted_search][directory_name] = "roomify_faceted_search"
+projects[roomify_faceted_search][subdir] = "contrib"
 
 projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"

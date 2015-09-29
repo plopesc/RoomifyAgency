@@ -115,6 +115,7 @@ dependencies[] = panels_mini
 dependencies[] = rooms_availability_reference_modal
 dependencies[] = roomify_conversations
 dependencies[] = roomify_booking_views
+dependencies[] = roomify_faceted_search
 ; Rooms
 dependencies[] = rooms
 dependencies[] = rooms_availability
@@ -128,7 +129,6 @@ dependencies[] = rooms_views
 dependencies[] = rooms_channel_manager
 dependencies[] = rooms_notification
 dependencies[] = rooms_commission_rates
-dependencies[] = rooms_faceted_search
 ; Rules
 dependencies[] = rules
 dependencies[] = rules_conditional
