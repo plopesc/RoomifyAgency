@@ -285,6 +285,7 @@ projects[environment_indicator][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
+projects[facetapi][patch][] = "https://www.drupal.org/files/issues/facetapi-cur-search-block-not-exported-1469002_2.patch"
 
 projects[facetapi_pretty_paths][version] = "1.4"
 projects[facetapi_pretty_paths][subdir] = "contrib"
