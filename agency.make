@@ -237,6 +237,9 @@ projects[commerce_checkout_progress][subdir] = "contrib"
 projects[composer_manager][version] = "1.x-dev"
 projects[composer_manager][subdir] = "contrib"
 
+projects[conditional_fields][version] = "3.0-alpha2"
+projects[conditional_fields][subdir] = "contrib"
+
 projects[content_menu][version] = "1.0"
 projects[content_menu][subdir] = "contrib"
 
