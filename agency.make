@@ -453,6 +453,9 @@ projects[profile2][subdir] = "contrib"
 projects[publishcontent][version] = "1.3"
 projects[publishcontent][subdir] = "contrib"
 
+projects[redirect][version] = "1.0-rc3"
+projects[redirect][subdir] = "contrib"
+
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
