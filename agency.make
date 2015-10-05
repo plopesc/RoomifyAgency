@@ -353,10 +353,10 @@ projects[jquery_update][subdir] = "contrib"
 projects[icon][version] = "1.0-beta6"
 projects[icon][subdir] = "contrib"
 
-projects[leaflet][version] = "1.x-dev"
+projects[leaflet][version] = "1.2"
 projects[leaflet][subdir] = "contrib"
 
-projects[leaflet_more_maps][version] = "1.12"
+projects[leaflet_more_maps][version] = "1.14"
 projects[leaflet_more_maps][subdir] = "contrib"
 
 projects[less][version] = "4.0"
