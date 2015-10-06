@@ -545,7 +545,7 @@ projects[bootstrap][subdir] = "contrib"
 
 ; shiny
 projects[shiny][type] = "theme"
-projects[shiny][version] = "1.6"
+projects[shiny][version] = "1.7"
 projects[shiny][subdir] = "contrib"
 
 ; +++++ Libraries +++++
