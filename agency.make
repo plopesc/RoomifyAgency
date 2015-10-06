@@ -503,8 +503,14 @@ projects[view_unpublished][subdir] = "contrib"
 projects[views][version] = "3.11"
 projects[views][subdir] = "contrib"
 
+projects[views_autocomplete_filters][version] = "1.2"
+projects[views_autocomplete_filters][subdir] = "contrib"
+
 projects[views_bootstrap][version] = "3.1"
 projects[views_bootstrap][subdir] = "contrib"
+
+projects[views_contextual_filters_or][version] = "1.x-dev"
+projects[views_contextual_filters_or][subdir] = "contrib"
 
 projects[views_date_format_sql][version] = "3.1"
 projects[views_date_format_sql][subdir] = "contrib"
