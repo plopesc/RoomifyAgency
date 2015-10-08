@@ -424,9 +424,8 @@ projects[panels_bootstrap_layouts][subdir] = "contrib"
 projects[panels_tabs][version] = "2.x-dev"
 projects[panels_tabs][subdir] = "contrib"
 
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][patch][] = "https://www.drupal.org/files/issues/1267966-238.patch"
 
 projects[pathauto_entity][version] = "1.0"
 projects[pathauto_entity][subdir] = "contrib"
