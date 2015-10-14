@@ -77,6 +77,7 @@ dependencies[] = entityreference_prepopulate
 ; Location
 dependencies[] = getdirections
 ; Other
+dependencies[] = classy_paragraphs
 dependencies[] = diff
 dependencies[] = editablefields
 dependencies[] = entity
@@ -100,6 +101,7 @@ dependencies[] = maillog
 dependencies[] = menu_admin_per_menu
 dependencies[] = mimemail
 dependencies[] = navbar
+dependencies[] = paragraphs
 dependencies[] = pathauto
 dependencies[] = pet
 dependencies[] = publishcontent
@@ -167,3 +169,4 @@ dependencies[] = agency_contact_form
 dependencies[] = agency_booking_manager
 dependencies[] = agency_reports
 dependencies[] = pet_to_users_role
+dependencies[] = agency_customizable_homepage

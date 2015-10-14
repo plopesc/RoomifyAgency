@@ -71,6 +71,11 @@ projects[agency_contact_form][download][url] = "https://github.com/Roomify/agenc
 projects[agency_contact_form][branch] = "7.x-1.x"
 projects[agency_contact_form][subdir] = "contrib"
 
+projects[agency_customizable_homepage][type] = module
+projects[agency_customizable_homepage][download][type] = "git"
+projects[agency_customizable_homepage][download][url] = "https://github.com/Roomify/agency_customizable_homepage.git"
+projects[agency_customizable_homepage][branch] = "master"
+
 projects[agency_editor][type] = module
 projects[agency_editor][download][type] = "git"
 projects[agency_editor][download][url] = "https://github.com/Roomify/agency_editor.git"
@@ -219,6 +224,9 @@ projects[charts][subdir] = "contrib"
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
 
+projects[classy_paragraphs][version] = "1.0-alpha4"
+projects[classy_paragraphs][subdir] = "contrib"
+
 projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "contrib"
 
@@ -257,6 +265,7 @@ projects[diff][subdir] = "contrib"
 
 projects[editablefields][version] = "1.x-dev"
 projects[editablefields][subdir] = "contrib"
+projects[editablefields][patch][] = "https://www.drupal.org/files/editablefields.undefined-index.1233688-20.patch"
 
 projects[email][version] = "1.3"
 projects[email][subdir] = "contrib"
@@ -353,6 +362,9 @@ projects[jquery_update][subdir] = "contrib"
 projects[icon][version] = "1.0-beta6"
 projects[icon][subdir] = "contrib"
 
+projects[image_link_formatter][version] = "1.0"
+projects[image_link_formatter][subdir] = "contrib"
+
 projects[leaflet][version] = "1.2"
 projects[leaflet][subdir] = "contrib"
 
@@ -423,6 +435,9 @@ projects[panels_bootstrap_layouts][subdir] = "contrib"
 
 projects[panels_tabs][version] = "2.x-dev"
 projects[panels_tabs][subdir] = "contrib"
+
+projects[paragraphs][version] = "1.0-rc4"
+projects[paragraphs][subdir] = "contrib"
 
 projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
