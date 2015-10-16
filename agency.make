@@ -10,6 +10,12 @@ projects[rooms][download][url] = "https://github.com/Roomify/rooms"
 projects[rooms][download][branch] = "7.x-1.x"
 projects[rooms][subdir] = "contrib"
 
+projects[rooms_availability_constraints][type] = "module"
+projects[rooms_availability_constraints][download][type] = "git"
+projects[rooms_availability_constraints][download][url] = "git://github.com/Roomify/rooms_availability_constraints.git"
+projects[rooms_availability_constraints][directory_name] = "rooms_availability_constraints"
+projects[rooms_availability_constraints][subdir] = "contrib"
+
 projects[rooms_availability_reference_modal][type] = module
 projects[rooms_availability_reference_modal][download][type] = "git"
 projects[rooms_availability_reference_modal][download][url] = "https://github.com/BluesparkLabs/rooms_availability_reference_modal.git"
