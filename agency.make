@@ -498,6 +498,9 @@ projects[publishcontent][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
+projects[robotstxt][version] = "1.3"
+projects[robotstxt][subdir] = "contrib"
+
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
