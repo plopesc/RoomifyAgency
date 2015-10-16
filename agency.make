@@ -40,6 +40,12 @@ projects[roomify_faceted_search][download][url] = "https://github.com/Roomify/ro
 projects[roomify_faceted_search][directory_name] = "roomify_faceted_search"
 projects[roomify_faceted_search][subdir] = "contrib"
 
+projects[roomify_landing_page][type] = module
+projects[roomify_landing_page][download][type] = "git"
+projects[roomify_landing_page][download][url] = "https://github.com/Roomify/roomify_landing_page.git"
+projects[roomify_landing_page][directory_name] = "roomify_landing_page"
+projects[roomify_landing_page][subdir] = "contrib"
+
 projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"
 projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
@@ -76,11 +82,6 @@ projects[agency_contact_form][download][type] = "git"
 projects[agency_contact_form][download][url] = "https://github.com/Roomify/agency_contact_form.git"
 projects[agency_contact_form][branch] = "7.x-1.x"
 projects[agency_contact_form][subdir] = "contrib"
-
-projects[agency_customizable_homepage][type] = module
-projects[agency_customizable_homepage][download][type] = "git"
-projects[agency_customizable_homepage][download][url] = "https://github.com/Roomify/agency_customizable_homepage.git"
-projects[agency_customizable_homepage][branch] = "master"
 
 projects[agency_editor][type] = module
 projects[agency_editor][download][type] = "git"
@@ -282,6 +283,9 @@ projects[entity][subdir] = "contrib"
 projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 
+projects[entity_background][version] = "1.0-alpha6"
+projects[entity_background][subdir] = "contrib"
+
 projects[entity_rules][version] = "1.0-alpha4"
 projects[entity_rules][subdir] = "contrib"
 
@@ -313,6 +317,9 @@ projects[fast_404][subdir] = "contrib"
 
 projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
+
+projects[field_collection][version] = "1.0-beta8"
+projects[field_collection][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
@@ -370,6 +377,9 @@ projects[icon][subdir] = "contrib"
 
 projects[image_link_formatter][version] = "1.0"
 projects[image_link_formatter][subdir] = "contrib"
+
+projects[jquery_colorpicker][version] = "1.2"
+projects[jquery_colorpicker][subdir] = "contrib"
 
 projects[leaflet][version] = "1.2"
 projects[leaflet][subdir] = "contrib"
@@ -444,6 +454,12 @@ projects[panels_tabs][subdir] = "contrib"
 
 projects[paragraphs][version] = "1.0-rc4"
 projects[paragraphs][subdir] = "contrib"
+
+projects[paragraphs_id][version] = "1.0-alpha2"
+projects[paragraphs_id][subdir] = "contrib"
+
+projects[paragraphs_pack][version] = "1.0-alpha5"
+projects[paragraphs_pack][subdir] = "contrib"
 
 projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
@@ -592,6 +608,13 @@ libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.3/flat/0.9/ckeditor_4.5.3_684d97fe8935.zip"
+
+; colorpicker
+libraries[colorpicker][directory_name] = "colorpicker"
+libraries[colorpicker][type] = "library"
+libraries[colorpicker][destination] = "libraries"
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 
 ; imagesloaded
 libraries[imagesloaded][directory_name] = "imagesloaded"
