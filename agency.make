@@ -125,6 +125,12 @@ projects[agency_page][download][url] = "https://github.com/Roomify/agency_page.g
 projects[agency_page][branch] = "7.x-1.x"
 projects[agency_page][subdir] = "contrib"
 
+projects[agency_paragraphs][type] = module
+projects[agency_paragraphs][download][type] = "git"
+projects[agency_paragraphs][download][url] = "https://github.com/Roomify/agency_paragraphs.git"
+projects[agency_paragraphs][branch] = "master"
+projects[agency_paragraphs][subdir] = "contrib"
+
 projects[agency_property_map][type] = module
 projects[agency_property_map][download][type] = "git"
 projects[agency_property_map][download][url] = "https://github.com/Roomify/agency_property_map.git"
