@@ -308,7 +308,7 @@ projects[entityform_block][patch][] = "https://www.drupal.org/files/issues/entit
 projects[entityreference_prepopulate][version] = "1.5"
 projects[entityreference_prepopulate][subdir] = "contrib"
 
-projects[environment_indicator][version] = "2.7"
+projects[environment_indicator][version] = "2.8"
 projects[environment_indicator][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
