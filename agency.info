@@ -151,6 +151,11 @@ dependencies[] = variable
 dependencies[] = views
 dependencies[] = views_php
 dependencies[] = views_ui
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
 ; Features
 dependencies[] = features
 dependencies[] = agency_amenities
