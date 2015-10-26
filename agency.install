@@ -143,9 +143,6 @@ function agency_install() {
   // Remove the "Unit Description" content type.
   node_type_delete('unit_description');
 
-  // Remove the "Unit with Attributes" Unit type.
-  rooms_unit_type_delete('unit_with_attributes');
-
   // Creates amenities terms
   create_agency_amenities_terms();
 
