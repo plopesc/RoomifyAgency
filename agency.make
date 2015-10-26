@@ -10,6 +10,10 @@ projects[rooms][download][url] = "https://github.com/Roomify/rooms"
 projects[rooms][download][branch] = "7.x-1.x"
 projects[rooms][subdir] = "contrib"
 
+projects[bat][version] = "1.x-dev"
+projects[bat][download][type] = "git"
+projects[bat][subdir] = "contrib"
+
 projects[rooms_availability_constraints][type] = "module"
 projects[rooms_availability_constraints][download][type] = "git"
 projects[rooms_availability_constraints][download][url] = "git://github.com/Roomify/rooms_availability_constraints.git"
@@ -704,13 +708,12 @@ libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
 libraries[plupload][patch][] = "https://www.drupal.org/files/issues/plupload-1_5_8-rm_examples-1903850-21.patch"
 
-; rooms_fullcalendar
-libraries[rooms_fullcalendar][directory_name] = "rooms_fullcalendar"
-libraries[rooms_fullcalendar][type] = "library"
-libraries[rooms_fullcalendar][destination] = "libraries"
-libraries[rooms_fullcalendar][download][type] = "git"
-libraries[rooms_fullcalendar][download][branch] = master
-libraries[rooms_fullcalendar][download][url] = "https://github.com/Roomify/fullcalendar"
+; fullcalendar
+libraries[fullcalendar][directory_name] = "fullcalendar"
+libraries[fullcalendar][type] = "library"
+libraries[fullcalendar][destination] = "libraries"
+libraries[fullcalendar][download][type] = "get"
+libraries[fullcalendar][download][url] = "https://github.com/arshaw/fullcalendar/releases/download/v2.4.0/fullcalendar-2.4.0.zip"
 
 ; rrssb
 libraries[rrssb][directory_name] = "rrssb"
