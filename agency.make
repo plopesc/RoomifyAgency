@@ -16,12 +16,6 @@ projects[bat_api][download][url] = "https://github.com/Roomify/bat_api.git"
 projects[bat_api][branch] = "7.x-1.x"
 projects[bat_api][subdir] = "contrib"
 
-projects[bat][version] = "1.x-dev"
-projects[bat][download][type] = "git"
-projects[bat][download][url] = "https://github.com/Roomify/bat"
-projects[bat][download][branch] = "7.x-1.x"
-projects[bat][subdir] = "contrib"
-
 projects[rooms_availability_constraints][type] = "module"
 projects[rooms_availability_constraints][download][type] = "git"
 projects[rooms_availability_constraints][download][url] = "git://github.com/Roomify/rooms_availability_constraints.git"
