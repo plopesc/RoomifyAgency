@@ -10,8 +10,16 @@ projects[rooms][download][url] = "https://github.com/Roomify/rooms"
 projects[rooms][download][branch] = "7.x-1.x"
 projects[rooms][subdir] = "contrib"
 
+projects[bat_api][type] = module
+projects[bat_api][download][type] = "git"
+projects[bat_api][download][url] = "https://github.com/Roomify/bat_api.git"
+projects[bat_api][branch] = "7.x-1.x"
+projects[bat_api][subdir] = "contrib"
+
 projects[bat][version] = "1.x-dev"
 projects[bat][download][type] = "git"
+projects[bat][download][url] = "https://github.com/Roomify/bat"
+projects[bat][download][branch] = "7.x-1.x"
 projects[bat][subdir] = "contrib"
 
 projects[rooms_availability_constraints][type] = "module"
@@ -524,6 +532,9 @@ projects[search_api_db][subdir] = "contrib"
 projects[search_api_ranges][subdir] = contrib
 projects[search_api_ranges][version] = "1.x-dev"
 projects[search_api_ranges][patch][] = "https://www.drupal.org/files/issues/search_api_ranges-existing-filter-tag-2294807-1.patch"
+
+projects[services][version] = "3.12"
+projects[services][subdir] = "contrib"
 
 projects[session_api][version] = "1.0-rc1"
 projects[session_api][subdir] = "contrib"
