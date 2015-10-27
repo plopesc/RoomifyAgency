@@ -212,7 +212,7 @@ projects[roomify_conversations][subdir] = "contrib"
 projects[roomify_booking_views][type] = module
 projects[roomify_booking_views][download][type] = "git"
 projects[roomify_booking_views][download][url] = "https://github.com/Roomify/roomify_booking_views.git"
-projects[roomify_booking_views][branch] = "master"
+projects[roomify_booking_views][branch] = "7.x-1.x"
 projects[roomify_booking_views][subdir] = "contrib"
 
 ; +++++ Agency Themes +++++
