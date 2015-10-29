@@ -330,7 +330,10 @@ projects[fast_404][subdir] = "contrib"
 projects[features][version] = "2.7"
 projects[features][subdir] = "contrib"
 
-projects[field_collection][version] = "1.0-beta8"
+projects[ffc][version] = "1.0-beta2"
+projects[ffc][subdir] = "contrib
+
+projects[field_collection][version] = "1.0-beta10"
 projects[field_collection][subdir] = "contrib"
 
 projects[field_group][version] = "1.4"
