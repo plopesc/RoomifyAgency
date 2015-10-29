@@ -351,6 +351,9 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources_plupload][version] = "1.1"
 projects[filefield_sources_plupload][subdir] = "contrib"
 
+projects[field_formatter_settings][version] = "1.1"
+projects[field_formatter_settings][subdir] = "contrib"
+
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][patch][] = "https://www.drupal.org/files/issues/entityreference-1836106-20.patch"
