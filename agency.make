@@ -390,6 +390,9 @@ projects[icon][subdir] = "contrib"
 projects[image_link_formatter][version] = "1.0"
 projects[image_link_formatter][subdir] = "contrib"
 
+projects[ip2country][version] = "1.4"
+projects[ip2country][subdir] = "contrib"
+
 projects[jquery_colorpicker][version] = "1.2"
 projects[jquery_colorpicker][subdir] = "contrib"
 
