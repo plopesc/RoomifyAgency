@@ -331,7 +331,7 @@ projects[features][version] = "2.7"
 projects[features][subdir] = "contrib"
 
 projects[ffc][version] = "1.0-beta2"
-projects[ffc][subdir] = "contrib
+projects[ffc][subdir] = "contrib"
 
 projects[field_collection][version] = "1.0-beta10"
 projects[field_collection][subdir] = "contrib"
