@@ -273,7 +273,7 @@ projects[content_menu][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[devel][version] = "1.5"
@@ -292,7 +292,7 @@ projects[email][subdir] = "contrib"
 projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
-projects[entitycache][version] = "1.2"
+projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
 projects[entity_background][version] = "1.0-alpha6"
@@ -388,7 +388,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[google_tag][version] = "1.0"
 projects[google_tag][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.6"
+projects[jquery_update][version] = "2.7"
 projects[jquery_update][subdir] = "contrib"
 
 projects[icon][version] = "1.0-beta6"
@@ -403,7 +403,7 @@ projects[ip2country][subdir] = "contrib"
 projects[jquery_colorpicker][version] = "1.2"
 projects[jquery_colorpicker][subdir] = "contrib"
 
-projects[leaflet][version] = "1.2"
+projects[leaflet][version] = "1.3"
 projects[leaflet][subdir] = "contrib"
 
 projects[leaflet_more_maps][version] = "1.14"
@@ -456,7 +456,7 @@ projects[mimemail][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
-projects[navbar][version] = "1.5"
+projects[navbar][version] = "1.6"
 projects[navbar][subdir] = "contrib"
 
 projects[nivo_formatter][version] = "1.x-dev"
@@ -585,7 +585,7 @@ projects[views_load_more][subdir] = "contrib"
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][subdir] = "contrib"
 
-projects[views_nivo_slider][version] = "3.0-alpha1"
+projects[views_nivo_slider][version] = "3.0"
 projects[views_nivo_slider][subdir] = "contrib"
 
 projects[votingapi][version] = "2.12"
@@ -594,7 +594,7 @@ projects[votingapi][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[xautoload][version] = "5.2"
+projects[xautoload][version] = "5.5"
 projects[xautoload][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.2"
