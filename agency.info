@@ -93,6 +93,7 @@ dependencies[] = fast_404
 dependencies[] = geophp
 dependencies[] = google_tag
 dependencies[] = icon
+dependencies[] = ip2country
 dependencies[] = leaflet
 dependencies[] = leaflet_more_maps
 dependencies[] = leaflet_views
