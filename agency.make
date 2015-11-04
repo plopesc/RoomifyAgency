@@ -671,7 +671,7 @@ libraries[leaflet][directory_name] = "leaflet"
 libraries[leaflet][type] = "library"
 libraries[leaflet][destination] = "libraries"
 libraries[leaflet][download][type] = "get"
-libraries[leaflet][download][url] = "http://cdn.leafletjs.com/downloads/leaflet-0.7.3.zip"
+libraries[leaflet][download][url] = "http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.zip"
 
 ; less.php
 libraries[less.php][directory_name] = "less.php"
