@@ -223,7 +223,11 @@ projects[agency_bootstrap_less][download][url] = "https://github.com/Roomify/age
 projects[agency_bootstrap_less][branch] = "7.x-1.x"
 projects[agency_bootstrap_less][subdir] = "contrib"
 
-
+projects[roomify_adminimal_theme][type] = theme
+projects[roomify_adminimal_theme][download][type] = "git"
+projects[roomify_adminimal_theme][download][url] = "https://github.com/Roomify/roomify_adminimal_theme.git"
+projects[roomify_adminimal_theme][branch] = "master"
+projects[roomify_adminimal_theme][subdir] = "contrib"
 
 
 ; +++++ Contrib Modules +++++
@@ -611,6 +615,11 @@ projects[bootstrap][subdir] = "contrib"
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.7"
 projects[shiny][subdir] = "contrib"
+
+; adminimal
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.23"
+projects[adminimal_theme][subdir] = "contrib"
 
 ; +++++ Libraries +++++
 
