@@ -176,6 +176,10 @@ function agency_install() {
   // Set E-mail format to Rich Text
   variable_set('mimemail_format', 'rich_text');
 
+  // Enable User page to use Agency Dashboard
+  variable_set('page_manager_user_view_disabled', FALSE);
+  menu_rebuild();
+
   // Ignore any rebuild messages.
   node_access_needs_rebuild(FALSE);
 
