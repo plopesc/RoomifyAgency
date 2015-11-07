@@ -235,7 +235,7 @@ projects[roomify_adminimal_theme][subdir] = "contrib"
 projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
-projects[admin_menu][version] = "7.x-3.0-rc5"
+projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
 projects[adminimal_admin_menu][version] = "1.6"
