@@ -173,6 +173,12 @@ projects[agency_system][download][url] = "https://github.com/Roomify/agency_syst
 projects[agency_system][branch] = "7.x-1.x"
 projects[agency_system][subdir] = "contrib"
 
+projects[agency_terms_conditions][type] = module
+projects[agency_terms_conditions][download][type] = "git"
+projects[agency_terms_conditions][download][url] = "https://github.com/Roomify/agency_terms_conditions.git"
+projects[agency_terms_conditions][branch] = "7.x-1.x"
+projects[agency_terms_conditions][subdir] = "contrib"
+
 projects[agency_theme][type] = module
 projects[agency_theme][download][type] = "git"
 projects[agency_theme][download][url] = "https://github.com/Roomify/agency_theme.git"
