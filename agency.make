@@ -58,13 +58,6 @@ projects[rooms_notification][download][url] = "https://www.github.com/Roomify/ro
 projects[rooms_notification][directory_name] = "rooms_notification"
 projects[rooms_notification][subdir] = "contrib"
 
-projects[rooms_views][type] = module
-projects[rooms_views][download][type] = "git"
-projects[rooms_views][download][url] = "https://github.com/Roomify/rooms_views.git"
-projects[rooms_views][download][branch] = "group_size_filter"
-projects[rooms_views][directory_name] = "rooms_views"
-projects[rooms_views][subdir] = "contrib"
-
 projects[agency_amenities][type] = module
 projects[agency_amenities][download][type] = "git"
 projects[agency_amenities][download][url] = "https://github.com/Roomify/agency_amenities.git"
