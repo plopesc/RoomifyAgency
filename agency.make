@@ -472,9 +472,6 @@ projects[mimemail][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
-projects[navbar][version] = "1.6"
-projects[navbar][subdir] = "contrib"
-
 projects[nivo_formatter][version] = "1.x-dev"
 projects[nivo_formatter][subdir] = "contrib"
 
@@ -517,6 +514,9 @@ projects[plupload][patch][] = "https://www.drupal.org/files/plupload-cannot-uplo
 
 projects[pm_existing_pages][version] = "1.4"
 projects[pm_existing_pages][subdir] = "contrib"
+
+projects[popup_field_group][version] = "1.0"
+projects[popup_field_group][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
@@ -622,11 +622,6 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.x-dev"
 projects[bootstrap][subdir] = "contrib"
-
-; shiny
-projects[shiny][type] = "theme"
-projects[shiny][version] = "1.7"
-projects[shiny][subdir] = "contrib"
 
 ; adminimal
 projects[adminimal_theme][type] = "theme"
