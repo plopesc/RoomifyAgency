@@ -506,6 +506,7 @@ projects[pet][type] = module
 projects[pet][version] = 1.0-rc1
 projects[pet][subdir] = "contrib"
 projects[pet][patch][] = "https://www.drupal.org/files/pet-add-rules-state-2092195-1.patch"
+projects[pet][patch][] = "https://www.drupal.org/files/issues/pet-token-entity-types.patch"
 
 projects[plupload][version] = "1.7"
 projects[plupload][subdir] = "patched"
