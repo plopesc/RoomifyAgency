@@ -40,11 +40,11 @@ projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomif
 projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
 projects[rooms_commission_rates][subdir] = "contrib"
 
-projects[roomify_faceted_search][type] = module
-projects[roomify_faceted_search][download][type] = "git"
-projects[roomify_faceted_search][download][url] = "https://github.com/Roomify/roomify_faceted_search.git"
-projects[roomify_faceted_search][directory_name] = "roomify_faceted_search"
-projects[roomify_faceted_search][subdir] = "contrib"
+projects[roomify_listing_faceted_search][type] = module
+projects[roomify_listing_faceted_search][download][type] = "git"
+projects[roomify_listing_faceted_search][download][url] = "https://github.com/Roomify/roomify_listing_faceted_search.git"
+projects[roomify_listing_faceted_search][directory_name] = "roomify_listing_faceted_search"
+projects[roomify_listing_faceted_search][subdir] = "contrib"
 
 projects[roomify_landing_page][type] = module
 projects[roomify_landing_page][download][type] = "git"
@@ -93,6 +93,12 @@ projects[agency_features_views][download][type] = "git"
 projects[agency_features_views][download][url] = "https://github.com/Roomify/agency_features_views.git"
 projects[agency_features_views][branch] = "7.x-1.x"
 projects[agency_features_views][subdir] = "contrib"
+
+projects[agency_filtered_availability_search_view][type] = module
+projects[agency_filtered_availability_search_view][download][type] = "git"
+projects[agency_filtered_availability_search_view][download][url] = "https://github.com/Roomify/agency_filtered_availability_search_view.git"
+projects[agency_filtered_availability_search_view][branch] = "7.x-1.x"
+projects[agency_filtered_availability_search_view][subdir] = "contrib"
 
 projects[agency_global_addons][type] = module
 projects[agency_global_addons][download][type] = "git"
