@@ -580,7 +580,7 @@ projects[variable][subdir] = "contrib"
 projects[view_unpublished][version] = 1.2
 projects[view_unpublished][subdir] = "contrib"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][subdir] = "contrib"
 
 projects[views_autocomplete_filters][version] = "1.2"
@@ -598,7 +598,7 @@ projects[views_date_format_sql][subdir] = "contrib"
 projects[views_load_more][version] = "1.5"
 projects[views_load_more][subdir] = "contrib"
 
-projects[views_php][version] = "1.0-alpha1"
+projects[views_php][version] = "1.0-alpha2"
 projects[views_php][subdir] = "contrib"
 
 projects[views_nivo_slider][version] = "3.0"
