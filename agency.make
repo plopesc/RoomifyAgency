@@ -598,7 +598,7 @@ projects[views_date_format_sql][subdir] = "contrib"
 projects[views_load_more][version] = "1.5"
 projects[views_load_more][subdir] = "contrib"
 
-projects[views_php][version] = "1.0-alpha2"
+projects[views_php][version] = "1.0-alpha3"
 projects[views_php][subdir] = "contrib"
 
 projects[views_nivo_slider][version] = "3.0"
