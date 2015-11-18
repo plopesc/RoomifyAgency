@@ -109,6 +109,7 @@ dependencies[] = pathauto
 dependencies[] = pet
 dependencies[] = publishcontent
 dependencies[] = redirect
+dependencies[] = role_export
 dependencies[] = rrssb
 dependencies[] = search_api_ranges
 dependencies[] = slick
