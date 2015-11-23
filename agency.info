@@ -123,7 +123,6 @@ dependencies[] = panels
 dependencies[] = panels_mini
 ; Roomify
 dependencies[] = rooms_availability_constraints
-dependencies[] = rooms_availability_reference_modal
 dependencies[] = roomify_conversations
 dependencies[] = roomify_booking_views
 dependencies[] = roomify_listing_faceted_search
