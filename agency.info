@@ -168,6 +168,7 @@ dependencies[] = agency_page
 dependencies[] = agency_paragraphs
 dependencies[] = agency_system
 dependencies[] = agency_features_views
+dependencies[] = agency_fees
 dependencies[] = agency_image_styles
 dependencies[] = agency_property_map
 dependencies[] = agency_property_page_view

@@ -94,6 +94,12 @@ projects[agency_features_views][download][url] = "https://github.com/Roomify/age
 projects[agency_features_views][branch] = "7.x-1.x"
 projects[agency_features_views][subdir] = "contrib"
 
+projects[agency_fees][type] = module
+projects[agency_fees][download][type] = "git"
+projects[agency_fees][download][url] = "https://github.com/Roomify/agency_fees.git"
+projects[agency_fees][branch] = "7.x-1.x"
+projects[agency_fees][subdir] = "contrib"
+
 projects[agency_filtered_availability_search_view][type] = module
 projects[agency_filtered_availability_search_view][download][type] = "git"
 projects[agency_filtered_availability_search_view][download][url] = "https://github.com/Roomify/agency_filtered_availability_search_view.git"
