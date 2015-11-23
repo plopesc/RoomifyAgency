@@ -341,6 +341,8 @@ function agency_create_example_units() {
 
   $units[] = $unit->unit_id;
 
+  agency_save_image_crop($images[1][0]['fid'], $images[2][0]['fid'], $images[3][0]['fid']);
+
   return $units;
 }
 
@@ -366,4 +368,94 @@ function agency_example_images($offset) {
   }
 
   return $images;
+}
+
+/**
+ * Save crop for the 3 main images.
+ */
+function agency_save_image_crop($fid1, $fid2, $fid3) {
+  $fid1_cords = array(
+    'epsacrop-homepage_features' => array(
+      'x' => 191.25,
+      'y' => 0,
+      'x2' => 1863.375,
+      'y2' => 1285,
+      'w' => 1672.125,
+      'h' => 1285,
+    ),
+    'epsacrop-thumb_unit_search' => array(
+      'x' => 0,
+      'y' => 0,
+      'x2' => 1920,
+      'y2' => 1278.75607386,
+      'w' => 1920,
+      'h' => 1278.75607386,
+    ),
+    'epsacrop-square' => array(
+      'x' => 161.25,
+      'y' => 0,
+      'x2' => 1447.5,
+      'y2' => 1285,
+      'w' => 1286.25,
+      'h' => 1285,
+    ),
+  );
+
+  $fid2_cords = array(
+    'epsacrop-homepage_features' => array(
+      'x' => 461.25,
+      'y' => 498.06744868,
+      'x2' => 1316.25,
+      'y2' => 1154.8596887,
+      'w' => 855,
+      'h' => 656.792240018,
+    ),
+    'epsacrop-thumb_unit_search' => array(
+      'x' => 438.75,
+      'y' => 557.985337243,
+      'x2' => 1290,
+      'y2' => 1124.7086999,
+      'w' => 851.25,
+      'h' => 566.723362659,
+    ),
+    'epsacrop-square' => array(
+      'x' => 468.75,
+      'y' => 337.038123167,
+      'x2' => 1410,
+      'y2' => 1277,
+      'w' => 941.25,
+      'h' => 939.961876833,
+    ),
+  );
+
+  $fid3_cords = array(
+    'epsacrop-homepage_features' => array(
+      'x' => 0,
+      'y' => 0,
+      'x2' => 1672.125,
+      'y2' => 1285,
+      'w' => 1672.125,
+      'h' => 1285,
+    ),
+    'epsacrop-thumb_unit_search' => array(
+      'x' => 0,
+      'y' => 0,
+      'x2' => 1920,
+      'y2' => 1278.75607386,
+      'w' => 1920,
+      'h' => 1278.75607386,
+    ),
+    'epsacrop-square' => array(
+      'x' => 0,
+      'y' => 0,
+      'x2' => 1286.25,
+      'y2' => 1285,
+      'w' => 1286.25,
+      'h' => 1285,
+    ),
+  );
+
+  _epsacrop_save_coords($fid1, drupal_json_encode(array($fid1 => $fid1_cords)));
+  _epsacrop_save_coords($fid2, drupal_json_encode(array($fid2 => $fid2_cords)));
+  _epsacrop_save_coords($fid3, drupal_json_encode(array($fid3 => $fid3_cords)));
 }
