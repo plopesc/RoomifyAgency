@@ -270,6 +270,9 @@ projects[commerce_cart_expiration][subdir] = "contrib"
 projects[commerce_features][version] = "1.1"
 projects[commerce_features][subdir] = "contrib"
 
+projects[commerce_fees][version] = "1.0-beta1"
+projects[commerce_fees][subdir] = "contrib"
+
 projects[commerce_reports][version] = "4.0-beta2"
 projects[commerce_reports][subdir] = "contrib"
 
