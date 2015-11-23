@@ -30,9 +30,8 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
 function agency_install_tasks(&$install_state) {
   return array(
     'agency_create_homepage' => array(
-      'display_name' => st('Creating Homepage'),
+      'display_name' => st('Homepage Configuration'),
       'type' => 'normal',
-      'display' => FALSE,
     ),
   );
 }
