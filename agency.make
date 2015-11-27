@@ -269,6 +269,7 @@ projects[classy_paragraphs][subdir] = "contrib"
 
 projects[commerce][version] = "1.11"
 projects[commerce][subdir] = "contrib"
+projects[commerce][patch][] = "https://www.drupal.org/files/issues/commerce-order_entity_view_access-707484-5.patch"
 
 projects[commerce_cart_expiration][version] = "1.2"
 projects[commerce_cart_expiration][subdir] = "contrib"
