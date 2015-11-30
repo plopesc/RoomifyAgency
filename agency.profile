@@ -33,7 +33,112 @@ function agency_install_tasks(&$install_state) {
       'display_name' => st('Homepage Configuration'),
       'type' => 'normal',
     ),
+    'agency_create_pet_templates' => array(
+      'display_name' => st('Creating email templates'),
+      'type' => 'normal',
+    ),
   );
+}
+
+/**
+ * Create email templates.
+ */
+function agency_create_pet_templates() {
+  $items = array();
+
+  $items['contact_form'] = entity_import('pet', '{
+    "name" : "contact_form",
+    "title" : "Contact form",
+    "subject" : "Contact form",
+    "mail_body" : "test test",
+    "mail_body_plain" : null,
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : ["node", "user"],
+    "rdf_mapping" : []
+  }');
+
+  $items['property_approved'] = entity_import('pet', '{
+    "name" : "property_approved",
+    "title" : "Property approved",
+    "subject" : "Your listing was approved!",
+    "mail_body" : "Greetings, we\\u0027re happy to let you know that your listing request has been approved! You will receive a separate email with login details. Once you have logged in and set your password, you may edit your listing here: \\u003Ca href=\\u0022[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u0022\\u003E[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u003C\\/a\\u003E",
+    "mail_body_plain" : null,
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : ["rooms_unit"],
+    "rdf_mapping" : []
+  }');
+
+  $items['new_property_review'] = entity_import('pet', '{
+    "name" : "new_property_review",
+    "title" : "New Property Review",
+    "subject" : "New Property Review",
+    "mail_body" : "A new review has been submitted from [site:name].\\r\\n\\r\\nYou can edit and publish content at:\\r\\n[node:url]",
+    "mail_body_plain" : null,
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : ["node", "user"],
+    "rdf_mapping" : []
+  }');
+
+  $items['order_confirmation'] = entity_import('pet', '{
+    "name" : "order_confirmation",
+    "title" : "Order confirmation",
+    "subject" : "Order [commerce-order:order-number] at [site:name]",
+    "mail_body" : "Thanks for your order [commerce-order:order-number] at [site:name].\\r\\n\\r\\nIf this is your first order with us, you will receive a separate e-mail with login instructions. You can view your order history with us at any time by logging into our website at:\\r\\n\\r\\n[site:login-url]\\r\\n\\r\\nYou can find the status of your current order at:\\r\\n\\r\\n[commerce-order:customer-url]\\r\\n\\r\\nPlease contact us if you have any questions about your order.",
+    "mail_body_plain" : "",
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : ["commerce-order"],
+    "rdf_mapping" : []
+  }');
+
+  $items['new_property'] = entity_import('pet', '{
+    "name" : "new_property",
+    "title" : "New Property",
+    "subject" : "New listing created by user [rooms_unit:field-owner:name]",
+    "mail_body" : "You may view the listing here: \\u003Ca href=\\u0022[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u0022\\u003E[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u003C\\/a\\u003E",
+    "mail_body_plain" : "",
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : [ "rooms_unit" ],
+    "rdf_mapping" : []
+  }');
+
+  $items['property_updated'] = entity_import('pet', '{
+    "name" : "property_updated",
+    "title" : "Property updated",
+    "subject" : "Listing edited by user [rooms_unit:field-owner:name]",
+    "mail_body" : "You may view the listing here: \\u003Ca href=\\u0022[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u0022\\u003E[site:url]admin\\/rooms\\/units\\/unit\\/[rooms_unit:unit-id]\\/edit\\u003C\\/a\\u003E",
+    "mail_body_plain" : "",
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : [ "rooms_unit" ],
+    "rdf_mapping" : []
+  }');
+
+  foreach($items as $item) {
+    $item->save();
+  }
 }
 
 /**
