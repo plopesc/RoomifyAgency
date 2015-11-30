@@ -136,6 +136,51 @@ function agency_create_pet_templates() {
     "rdf_mapping" : []
   }');
 
+  $items['new_booking_inquiry'] = entity_import('pet', '{
+    "name" : "new_booking_inquiry",
+    "title" : "New Booking Inquiry",
+    "subject" : "New booking enquiry received",
+    "mail_body" : "Submitted an enquiry about your listing [rooms_unit:name], from [entityform:field-enquiry-arrival-date] to [entityform:field-enquiry-departure-date]. They also said:\\r\\n[entityform:field-enquiry-further-info]\\r\\n\\r\\nYou may view and respond to this enquiry here: \\u003Ca href=\\u0022[conversation:absolute_url]\\u0022\\u003E[conversation:absolute_url]\\u003C\\/a\\u003E",
+    "mail_body_plain" : null,
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : [ "rooms_unit", "entityform" ],
+    "rdf_mapping" : []
+  }');
+
+  $items['new_booking_offer'] = entity_import('pet', '{
+    "name" : "new_booking_offer",
+    "title" : "New Booking Offer",
+    "subject" : "New offer to book [rooms_unit:name]",
+    "mail_body" : "[rooms_unit:field-owner:name] has made you an offer to book [rooms_unit:name].\\r\\n\\r\\nYou may view and accept this offer here: \\u003Ca href=\\u0022[conversation:absolute_url]\\u0022\\u003E[conversation:absolute_url]\\u003C\\/a\\u003E",
+    "mail_body_plain" : null,
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : [ "rooms_unit", "conversation" ],
+    "rdf_mapping" : []
+  }');
+
+  $items['new_conversation_message'] = entity_import('pet', '{
+    "name" : "new_conversation_message",
+    "title" : "New conversation message",
+    "subject" : "[site:name] - New message from [message:user:name]",
+    "mail_body" : "[message:user:name] sent a message:\\r\\n\\r\\n\\u0022[conversation:message]\\u0022\\r\\n\\r\\nYou may view and respond to their message here: \\u003Ca href=\\u0022[conversation:absolute_url]\\u0022\\u003E[conversation:absolute_url]\\u003C\\/a\\u003E",
+    "mail_body_plain" : "",
+    "send_plain" : "0",
+    "from_override" : "",
+    "cc_default" : "",
+    "bcc_default" : "",
+    "recipient_callback" : "",
+    "token_entity_types" : [ "message", "conversation" ],
+    "rdf_mapping" : []
+  }');
+
   foreach($items as $item) {
     $item->save();
   }
