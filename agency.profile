@@ -140,8 +140,8 @@ function agency_create_pet_templates() {
     "name" : "new_booking_inquiry",
     "title" : "New Booking Inquiry",
     "subject" : "New booking enquiry received",
-    "mail_body" : "Submitted an enquiry about your listing [rooms_unit:name], from [entityform:field-enquiry-arrival-date] to [entityform:field-enquiry-departure-date]. They also said:\\r\\n[entityform:field-enquiry-further-info]\\r\\n\\r\\nYou may view and respond to this enquiry here: \\u003Ca href=\\u0022[conversation:absolute_url]\\u0022\\u003E[conversation:absolute_url]\\u003C\\/a\\u003E",
-    "mail_body_plain" : null,
+    "mail_body" : "\u003Cstrong\u003EYou have an enquiry regarding your listing [rooms_unit:name]!\u003C\/strong\u003E\r\n\r\n\u003Chr\/\u003E\r\n\r\n\u003Cu\u003E\u003Cstrong\u003ERequested Dates\u003Cstrong\u003E\u003C\/u\u003E\r\nArrive:  [entityform:field-enquiry-arrival-date] \r\nDepart: [entityform:field-enquiry-departure-date]. \r\n\r\n\u003Chr\/\u003E\r\n\r\nThe following message was left:\r\n[entityform:field-enquiry-further-info]\r\n\r\n\u003Chr\/\u003E\r\n\r\nby [entityform:field-enquiry-name]\r\nE-mail: [entityform:field-enquiry-email-address]\r\n\u003Chr\/\u003E\r\n\r\n\u003Cem\u003EUsing Agency Conversation you can keep the discussion onsite and create a dynamic offer for the user\u003C\/em\u003E\r\nView and respond to this enquiry here: \u003Ca href=\u0022[conversation:absolute_url]\u0022\u003E[conversation:absolute_url]\u003C\/a\u003E",
+    "mail_body_plain" : "You have an enquiry regarding your listing [rooms_unit:name]!\r\n\r\nRequested Dates\r\nArrive:  [entityform:field-enquiry-arrival-date] \r\nDepart: [entityform:field-enquiry-departure-date]. \r\n\r\n\r\nThe following message was left:\r\n[entityform:field-enquiry-further-info]\r\n\r\n\r\nby [entityform:field-enquiry-name]\r\nE-mail: [entityform:field-enquiry-email-address]\r\n\r\n\r\nUsing Agency Conversation you can keep the discussion onsite and create a dynamic offer for the user\r\nView and respond to this enquiry here: \u003Ca href=\u0022[conversation:absolute_url]\u0022\u003E[conversation:absolute_url]\u003C\/a\u003E",
     "send_plain" : "0",
     "from_override" : "",
     "cc_default" : "",
@@ -612,3 +612,7 @@ function agency_save_image_crop($fid1, $fid2, $fid3) {
   _epsacrop_save_coords($fid2, drupal_json_encode(array($fid2 => $fid2_cords)));
   _epsacrop_save_coords($fid3, drupal_json_encode(array($fid3 => $fid3_cords)));
 }
+
+
+by [entityform:field-enquiry-name]
+E-mail: E-
