@@ -612,7 +612,3 @@ function agency_save_image_crop($fid1, $fid2, $fid3) {
   _epsacrop_save_coords($fid2, drupal_json_encode(array($fid2 => $fid2_cords)));
   _epsacrop_save_coords($fid3, drupal_json_encode(array($fid3 => $fid3_cords)));
 }
-
-
-by [entityform:field-enquiry-name]
-E-mail: E-
