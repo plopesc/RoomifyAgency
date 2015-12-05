@@ -242,7 +242,7 @@ projects[roomify_adminimal_theme][subdir] = "contrib"
 
 ; +++++ Contrib Modules +++++
 
-projects[addressfield][version] = "1.1"
+projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
