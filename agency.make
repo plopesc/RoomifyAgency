@@ -364,7 +364,7 @@ projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
-projects[flag][version] = "3.6"
+projects[flag][version] = "3.7"
 projects[flag][subdir] = "contrib"
 
 projects[fivestar][version] = "2.1"
