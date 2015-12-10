@@ -663,7 +663,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.4/icy_orange/0.9/ckeditor_4.5.4_53621eb28609.zip"
+libraries[ckeditor][download][url] = "http://ckeditor.com/online-builder/releases/minified/4.5.6/icy_orange/0.9/ckeditor_4.5.6_c2e6788d6aaf.zip"
 
 ; colorpicker
 libraries[colorpicker][directory_name] = "colorpicker"
