@@ -206,7 +206,7 @@ function agency_create_footer_bean() {
   $bean->delta = 'bean-footer';
   $bean->field_footer_text = array(
     'und' => array(array(
-      'value' => '<p>Click <a href="/block/bean-footer/edit?destination=admin/content/blocks">here</a> to edit footer.</p>',
+      'value' => '<p>Click <a href="/block/bean-footer/edit?destination">here</a> to edit footer.</p>',
       'format' => 'filtered_text',
     )),
   );
