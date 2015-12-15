@@ -36,6 +36,7 @@ projects[rooms_channel_manager][subdir] = "contrib"
 projects[rooms_commission_rates][type] = module
 projects[rooms_commission_rates][download][type] = "git"
 projects[rooms_commission_rates][download][url] = "https://www.github.com/Roomify/rooms_commission_rates.git"
+projects[rooms_commission_rates][download][revision] = "0f141a7"
 projects[rooms_commission_rates][directory_name] = "rooms_commission_rates"
 projects[rooms_commission_rates][subdir] = "contrib"
 
@@ -43,191 +44,224 @@ projects[roomify_listing_faceted_search][type] = module
 projects[roomify_listing_faceted_search][download][type] = "git"
 projects[roomify_listing_faceted_search][download][url] = "https://github.com/Roomify/roomify_listing_faceted_search.git"
 projects[roomify_listing_faceted_search][directory_name] = "roomify_listing_faceted_search"
+projects[roomify_listing_faceted_search][download][revision] = "e0c1ba9"
+projects[roomify_listing_faceted_search][download][branch] = "7.x-1.x"
 projects[roomify_listing_faceted_search][subdir] = "contrib"
 
 projects[roomify_landing_page][type] = module
 projects[roomify_landing_page][download][type] = "git"
 projects[roomify_landing_page][download][url] = "https://github.com/Roomify/roomify_landing_page.git"
+projects[roomify_landing_page][download][revision] = "c0fa1e2"
 projects[roomify_landing_page][directory_name] = "roomify_landing_page"
 projects[roomify_landing_page][subdir] = "contrib"
 
 projects[roomify_pet][type] = module
 projects[roomify_pet][download][type] = "git"
 projects[roomify_pet][download][url] = "https://github.com/Roomify/roomify_pet.git"
+projects[roomify_pet][download][revision] = "e28d984"
 projects[roomify_pet][directory_name] = "roomify_pet"
 projects[roomify_pet][subdir] = "contrib"
 
 projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"
 projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"
+projects[rooms_notification][download][revision] = "8e628a0"
 projects[rooms_notification][directory_name] = "rooms_notification"
 projects[rooms_notification][subdir] = "contrib"
 
 projects[agency_amenities][type] = module
 projects[agency_amenities][download][type] = "git"
 projects[agency_amenities][download][url] = "https://github.com/Roomify/agency_amenities.git"
+projects[agency_amenities][download][revision] = "9d63752"
 projects[agency_amenities][branch] = "master"
 projects[agency_amenities][subdir] = "contrib"
 
 projects[agency_availability_button][type] = module
 projects[agency_availability_button][download][type] = "git"
 projects[agency_availability_button][download][url] = "https://github.com/Roomify/agency_availability_button.git"
+projects[agency_availability_button][download][revision] = "2e16c7d"
 projects[agency_availability_button][branch] = "7.x-1.x"
 projects[agency_availability_button][subdir] = "contrib"
 
 projects[agency_blog][type] = module
 projects[agency_blog][download][type] = "git"
 projects[agency_blog][download][url] = "https://github.com/Roomify/agency_blog.git"
+projects[agency_blog][download][revision] = "cc6ed7e"
 projects[agency_blog][branch] = "7.x-1.x"
 projects[agency_blog][subdir] = "contrib"
 
 projects[agency_contact_form][type] = module
 projects[agency_contact_form][download][type] = "git"
 projects[agency_contact_form][download][url] = "https://github.com/Roomify/agency_contact_form.git"
+projects[agency_contact_form][download][revision] = "26289b7"
 projects[agency_contact_form][branch] = "7.x-1.x"
 projects[agency_contact_form][subdir] = "contrib"
 
 projects[agency_editor][type] = module
 projects[agency_editor][download][type] = "git"
 projects[agency_editor][download][url] = "https://github.com/Roomify/agency_editor.git"
+projects[agency_editor][download][revision] = "53033e8"
 projects[agency_editor][branch] = "7.x-1.x"
 projects[agency_editor][subdir] = "contrib"
 
 projects[agency_features_views][type] = module
 projects[agency_features_views][download][type] = "git"
 projects[agency_features_views][download][url] = "https://github.com/Roomify/agency_features_views.git"
+projects[agency_features_views][download][revision] = "e1786a7"
 projects[agency_features_views][branch] = "7.x-1.x"
 projects[agency_features_views][subdir] = "contrib"
 
 projects[agency_fees][type] = module
 projects[agency_fees][download][type] = "git"
 projects[agency_fees][download][url] = "https://github.com/Roomify/agency_fees.git"
+projects[agency_fees][download][revision] = "b591ee9"
 projects[agency_fees][branch] = "7.x-1.x"
 projects[agency_fees][subdir] = "contrib"
 
 projects[agency_filtered_availability_search_view][type] = module
 projects[agency_filtered_availability_search_view][download][type] = "git"
 projects[agency_filtered_availability_search_view][download][url] = "https://github.com/Roomify/agency_filtered_availability_search_view.git"
+projects[agency_filtered_availability_search_view][download][revision] = "f08e433"
 projects[agency_filtered_availability_search_view][branch] = "7.x-1.x"
 projects[agency_filtered_availability_search_view][subdir] = "contrib"
 
 projects[agency_global_addons][type] = module
 projects[agency_global_addons][download][type] = "git"
 projects[agency_global_addons][download][url] = "https://github.com/Roomify/agency_global_addons.git"
+projects[agency_global_addons][download][revision] = "ef4c115"
 projects[agency_global_addons][branch] = "master"
 projects[agency_global_addons][subdir] = "contrib"
 
 projects[agency_homepage][type] = module
 projects[agency_homepage][download][type] = "git"
 projects[agency_homepage][download][url] = "https://github.com/Roomify/agency_homepage.git"
+projects[agency_homepage][download][revision] = "623ffed"
 projects[agency_homepage][branch] = "7.x-1.x"
 projects[agency_homepage][subdir] = "contrib"
 
 projects[agency_image_styles][type] = module
 projects[agency_image_styles][download][type] = "git"
 projects[agency_image_styles][download][url] = "https://github.com/Roomify/agency_image_styles.git"
+projects[agency_image_styles][download][revision] = "ddc1057"
 projects[agency_image_styles][branch] = "7.x-1.x"
 projects[agency_image_styles][subdir] = "contrib"
 
 projects[agency_mailchimp][type] = module
 projects[agency_mailchimp][download][type] = "git"
 projects[agency_mailchimp][download][url] = "https://github.com/Roomify/agency_mailchimp.git"
+projects[agency_mailchimp][download][revision] = "aed578e"
 projects[agency_mailchimp][branch] = "7.x-1.x"
 projects[agency_mailchimp][subdir] = "contrib"
 
 projects[agency_page][type] = module
 projects[agency_page][download][type] = "git"
 projects[agency_page][download][url] = "https://github.com/Roomify/agency_page.git"
+projects[agency_page][download][revision] = "60371ab"
 projects[agency_page][branch] = "7.x-1.x"
 projects[agency_page][subdir] = "contrib"
 
 projects[agency_paragraphs][type] = module
 projects[agency_paragraphs][download][type] = "git"
 projects[agency_paragraphs][download][url] = "https://github.com/Roomify/agency_paragraphs.git"
+projects[agency_paragraphs][download][revision] = "d56b8d1"
 projects[agency_paragraphs][branch] = "master"
 projects[agency_paragraphs][subdir] = "contrib"
 
 projects[agency_property_map][type] = module
 projects[agency_property_map][download][type] = "git"
 projects[agency_property_map][download][url] = "https://github.com/Roomify/agency_property_map.git"
+projects[agency_property_map][download][revision] = "2889765"
 projects[agency_property_map][branch] = "7.x-1.x"
 projects[agency_property_map][subdir] = "contrib"
 
 projects[agency_property_page_view][type] = module
 projects[agency_property_page_view][download][type] = "git"
 projects[agency_property_page_view][download][url] = "https://github.com/Roomify/agency_property_page_view.git"
+projects[agency_property_page_view][download][revision] = "edbdc55"
 projects[agency_property_page_view][branch] = "7.x-1.x"
 projects[agency_property_page_view][subdir] = "contrib"
 
 projects[agency_reports][type] = module
 projects[agency_reports][download][type] = "git"
 projects[agency_reports][download][url] = "https://github.com/Roomify/agency_reports.git"
+projects[agency_reports][download][revision] = "32ac411"
 projects[agency_reports][branch] = "7.x-1.x"
 projects[agency_reports][subdir] = "contrib"
 
 projects[agency_review][type] = module
 projects[agency_review][download][type] = "git"
 projects[agency_review][download][url] = "https://github.com/Roomify/agency_review.git"
+projects[agency_review][download][revision] = "18d1d83"
 projects[agency_review][branch] = "7.x-1.x"
 projects[agency_review][subdir] = "contrib"
 
 projects[agency_social_settings][type] = module
 projects[agency_social_settings][download][type] = "git"
 projects[agency_social_settings][download][url] = "https://github.com/Roomify/agency_social_settings.git"
+projects[agency_social_settings][download][revision] = "a53059d"
 projects[agency_social_settings][branch] = "7.x-1.x"
 projects[agency_social_settings][subdir] = "contrib"
 
 projects[agency_system][type] = module
 projects[agency_system][download][type] = "git"
 projects[agency_system][download][url] = "https://github.com/Roomify/agency_system.git"
+projects[agency_system][download][revision] = "0cc30ac"
 projects[agency_system][branch] = "7.x-1.x"
 projects[agency_system][subdir] = "contrib"
 
 projects[agency_terms_conditions][type] = module
 projects[agency_terms_conditions][download][type] = "git"
 projects[agency_terms_conditions][download][url] = "https://github.com/Roomify/agency_terms_conditions.git"
+projects[agency_terms_conditions][download][revision] = "8352f23"
 projects[agency_terms_conditions][branch] = "7.x-1.x"
 projects[agency_terms_conditions][subdir] = "contrib"
 
 projects[agency_theme][type] = module
 projects[agency_theme][download][type] = "git"
 projects[agency_theme][download][url] = "https://github.com/Roomify/agency_theme.git"
+projects[agency_theme][download][revision] = "9316910"
 projects[agency_theme][branch] = "7.x-1.x"
 projects[agency_theme][subdir] = "contrib"
 
 projects[agency_units][type] = module
 projects[agency_units][download][type] = "git"
 projects[agency_units][download][url] = "https://github.com/Roomify/agency_units.git"
+projects[agency_units][revision] = "c41830a"
 projects[agency_units][branch] = "7.x-1.x"
 projects[agency_units][subdir] = "contrib"
 
 projects[agency_users][type] = module
 projects[agency_users][download][type] = "git"
 projects[agency_users][download][url] = "https://github.com/Roomify/agency_users.git"
+projects[agency_users][download][revision] = "fbb83ff"
 projects[agency_users][branch] = "7.x-1.x"
 projects[agency_users][subdir] = "contrib"
 
 projects[pet_to_users_role][type] = module
 projects[pet_to_users_role][download][type] = "git"
 projects[pet_to_users_role][download][url] = "https://github.com/Roomify/pet_to_users_role.git"
+projects[pet_to_users_role][download][revision] = "f4f6d83"
 projects[pet_to_users_role][branch] = "7.x-1.x"
 projects[pet_to_users_role][subdir] = "contrib"
 
 projects[agency_booking_manager][type] = module
 projects[agency_booking_manager][download][type] = "git"
 projects[agency_booking_manager][download][url] = "https://github.com/Roomify/agency_booking_manager.git"
+projects[agency_booking_manager][download][revision] = "ecffd07"
 projects[agency_booking_manager][branch] = "7.x-1.x"
 projects[agency_booking_manager][subdir] = "contrib"
 
 projects[roomify_conversations][type] = module
 projects[roomify_conversations][download][type] = "git"
 projects[roomify_conversations][download][url] = "https://github.com/Roomify/roomify_conversations.git"
+projects[roomify_conversations][download][revision] = "fd29c97"
 projects[roomify_conversations][branch] = "master"
 projects[roomify_conversations][subdir] = "contrib"
 
 projects[roomify_booking_views][type] = module
 projects[roomify_booking_views][download][type] = "git"
 projects[roomify_booking_views][download][url] = "https://github.com/Roomify/roomify_booking_views.git"
+projects[roomify_booking_views][download][revision] = "b336438"
 projects[roomify_booking_views][branch] = "7.x-1.x"
 projects[roomify_booking_views][subdir] = "contrib"
 
@@ -236,7 +270,7 @@ projects[roomify_booking_views][subdir] = "contrib"
 projects[agency_bootstrap_less][type] = theme
 projects[agency_bootstrap_less][download][type] = "git"
 projects[agency_bootstrap_less][download][url] = "https://github.com/Roomify/agency_bootstrap_less.git"
-projects[agency_bootstrap_less][download][revision] = "5a9323e"
+projects[agency_bootstrap_less][download][revision] = "77d62dd"
 projects[agency_bootstrap_less][download][branch] = "7.x-1.x"
 projects[agency_bootstrap_less][subdir] = "contrib"
 
