@@ -51,6 +51,12 @@ projects[roomify_landing_page][download][url] = "https://github.com/Roomify/room
 projects[roomify_landing_page][directory_name] = "roomify_landing_page"
 projects[roomify_landing_page][subdir] = "contrib"
 
+projects[roomify_pet][type] = module
+projects[roomify_pet][download][type] = "git"
+projects[roomify_pet][download][url] = "https://github.com/Roomify/roomify_pet.git"
+projects[roomify_pet][directory_name] = "roomify_pet"
+projects[roomify_pet][subdir] = "contrib"
+
 projects[rooms_notification][type] = module
 projects[rooms_notification][download][type] = "git"
 projects[rooms_notification][download][url] = "https://www.github.com/Roomify/rooms_notification.git"

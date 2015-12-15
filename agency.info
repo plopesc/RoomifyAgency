@@ -127,6 +127,7 @@ dependencies[] = roomify_conversations
 dependencies[] = roomify_booking_views
 dependencies[] = roomify_listing_faceted_search
 dependencies[] = roomify_landing_page
+dependencies[] = roomify_pet
 ; Rooms
 dependencies[] = rooms
 dependencies[] = rooms_availability
