@@ -236,15 +236,16 @@ projects[roomify_booking_views][subdir] = "contrib"
 projects[agency_bootstrap_less][type] = theme
 projects[agency_bootstrap_less][download][type] = "git"
 projects[agency_bootstrap_less][download][url] = "https://github.com/Roomify/agency_bootstrap_less.git"
-projects[agency_bootstrap_less][branch] = "7.x-1.x"
+projects[agency_bootstrap_less][download][revision] = "5a9323e"
+projects[agency_bootstrap_less][download][branch] = "7.x-1.x"
 projects[agency_bootstrap_less][subdir] = "contrib"
 
 projects[roomify_adminimal_theme][type] = theme
 projects[roomify_adminimal_theme][download][type] = "git"
 projects[roomify_adminimal_theme][download][url] = "https://github.com/Roomify/roomify_adminimal_theme.git"
+projects[roomify_adminimal_theme][download][revision] = "220830b"
 projects[roomify_adminimal_theme][branch] = "master"
 projects[roomify_adminimal_theme][subdir] = "contrib"
-
 
 ; +++++ Contrib Modules +++++
 
