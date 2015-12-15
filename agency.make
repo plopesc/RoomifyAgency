@@ -243,7 +243,7 @@ projects[agency_bootstrap_less][subdir] = "contrib"
 projects[roomify_adminimal_theme][type] = theme
 projects[roomify_adminimal_theme][download][type] = "git"
 projects[roomify_adminimal_theme][download][url] = "https://github.com/Roomify/roomify_adminimal_theme.git"
-projects[roomify_adminimal_theme][download][revision] = "220830b"
+projects[roomify_adminimal_theme][download][revision] = "53d2b75"
 projects[roomify_adminimal_theme][branch] = "master"
 projects[roomify_adminimal_theme][subdir] = "contrib"
 
