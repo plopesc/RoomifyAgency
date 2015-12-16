@@ -578,10 +578,10 @@ projects[services][subdir] = "contrib"
 projects[session_api][version] = "1.0-rc1"
 projects[session_api][subdir] = "contrib"
 
-projects[slick][version] = "2.0-rc2"
+projects[slick][version] = "2.0"
 projects[slick][subdir] = "contrib"
 
-projects[slick_views][version] = "2.0-rc2"
+projects[slick_views][version] = "2.0"
 projects[slick_views][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
