@@ -458,7 +458,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[maillog][version] = "1.0-alpha1"
 projects[maillog][subdir] = "contrib"
 
-projects[mailsystem][version] = "2.34"
+projects[mailsystem][version] = "2.x-dev"
 projects[mailsystem][subdir] = "contrib"
 
 projects[masonry][version] = "3.0-beta1"
