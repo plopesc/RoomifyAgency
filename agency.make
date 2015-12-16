@@ -314,6 +314,7 @@ projects[diff][subdir] = "contrib"
 
 projects[editablefields][version] = "1.x-dev"
 projects[editablefields][subdir] = "contrib"
+projects[editablefields][patch][] = "https://www.drupal.org/files/issues/editablefields-Irrelevant-continue-statement-2771463-2-7.x.patch"
 projects[editablefields][patch][] = "https://www.drupal.org/files/editablefields.undefined-index.1233688-20.patch"
 
 projects[email][version] = "1.3"
