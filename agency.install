@@ -101,6 +101,26 @@ function agency_install() {
       'pages' => '',
       'cache' => -1,
     ),
+    array(
+      'module' => 'menu',
+      'delta' => 'menu-agency-user-menu',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_toggle_menu',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'menu',
+      'delta' => 'menu-agency-user-menu',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_toggle_menu',
+      'pages' => '',
+      'cache' => -1,
+    )
   );
 
   // Drop system / user blocks to ensure correct building
