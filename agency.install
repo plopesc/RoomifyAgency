@@ -102,8 +102,8 @@ function agency_install() {
       'cache' => -1,
     ),
     array(
-      'module' => 'menu',
-      'delta' => 'menu-agency-user-menu',
+      'module' => 'panels_mini',
+      'delta' => 'sidebar',
       'theme' => $default_theme,
       'status' => 1,
       'weight' => 0,
@@ -112,8 +112,8 @@ function agency_install() {
       'cache' => -1,
     ),
     array(
-      'module' => 'menu',
-      'delta' => 'menu-agency-user-menu',
+      'module' => 'panels_mini',
+      'delta' => 'sidebar',
       'theme' => $admin_theme,
       'status' => 1,
       'weight' => 0,
