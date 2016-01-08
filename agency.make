@@ -288,7 +288,7 @@ projects[commerce_fees][subdir] = "contrib"
 projects[commerce_reports][version] = "4.0-beta2"
 projects[commerce_reports][subdir] = "contrib"
 
-projects[commerce_checkout_progress][version] = "1.3"
+projects[commerce_checkout_progress][version] = "1.4"
 projects[commerce_checkout_progress][subdir] = "contrib"
 
 projects[composer_manager][version] = "1.x-dev"
