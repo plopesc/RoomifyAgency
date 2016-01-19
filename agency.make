@@ -368,7 +368,7 @@ projects[field_collection][version] = "1.0-beta10"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field-collection-2599248-2.patch"
 
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
 projects[flag][version] = "3.7"
